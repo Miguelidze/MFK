@@ -1,8 +1,12 @@
+@import './base/normalize';
+@import './base/content';
 @import './sections/header';
 @import './sections/footer';
 
 body {
-    margin: 0px
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
 }
 
 * {
@@ -21,8 +25,6 @@ a {
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 h1,

@@ -7,8 +7,6 @@
 }
 .logo-footer{
     margin-top: 55px;
-    width:152px;
-    height:62px;
 }
 .about-footer{
     display: flex;
@@ -51,11 +49,14 @@
     justify-content: space-between;
     margin-left: 110px;
     margin-top: 55px;
-    
+    padding-bottom: 35px;
+    border-bottom: 1px solid;
+
+    // border-image-source: linear-gradient(90deg, #FFFFFF -61.32%, rgba(0, 0, 0, 0) 199.06%);
 }
+
 .contacts-footer{
     display: flex;
-    width: 670px;
 }
 .contacts-footer-list{
     display: flex;
@@ -97,11 +98,6 @@
     color: #FFFFFF;
 }
 
-.nav-footer {
-
-    //  
-}
-
 .nav-footer-link {
     text-decoration: none;
     font-family: 'Helvetica';
@@ -131,5 +127,21 @@
     display: flex;
     align-items: flex-end;
 
+    color: #FFFFFF;
+}
+.cr-container{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 45px 0px 52px 110px;
+}
+.copyright{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
     color: #FFFFFF;
 }

@@ -6,69 +6,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="mfk-bank" content="width=device-width, initial-scale=1.0">
     <title>MFK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./src/sass/main.css">
 
 <body>
-    <div class="container">
+    <div >
         <header class="header">
-            <div class="logo">
-                <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px"/>
-                <span class="logo-title">
-                    <p>международный <br>финансовый<br>клуб</p>
-                </span>
-            </div>
-            <div class="first-header">
-                <div class="about">
-                    <ul class="about-list">
-                        <li>
-                            <a class="about-link" href="#">О банке</a>
-                        </li>
-                        <li>
-                            <a class="about-link" href="#">Банковская группа</a>
-                        </li>
-                        <li>
-                            <a class="about-link" href="#">Новости</a>
-                        </li>
-                    </ul>
-                    <div class="contacts">
-                        <a class="contacts-link" href="tel:+7495287-02-60">
-                            +7 495 287-02-60
-                        </a>
+            <div class="container">
+                <div class="logo">
+                    <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px" />
+                    <span class="logo-title">
+                        <p>международный <br>финансовый<br>клуб</p>
+                    </span>
+                </div>
+                <div class="first-header">
+                    <div class="about">
+                        <ul class="about-list">
+                            <li>
+                                <a class="about-link" href="#">О банке</a>
+                            </li>
+                            <li>
+                                <a class="about-link" href="#">Банковская группа</a>
+                            </li>
+                            <li>
+                                <a class="about-link" href="#">Новости</a>
+                            </li>
+                        </ul>
+                        <div class="contacts">
+                            <a class="contacts-link" href="tel:+7495287-02-60">
+                                +7 495 287-02-60
+                            </a>
+                        </div>
+                        <div class="search-box">
+                            <form class="search-form-action">
+                                <input class="search-form-input" type="search"  placeholder="Поиск" color="white"/>
+                                <!-- <button type="button" aria-label="search">
+                                    лупа
+                                </button> -->
+                            </form>
+                        </div>
                     </div>
-                    <div class="search-box">
-                        <form>
-                            <input type="text" class="search" placeholder="Поиск" />
-                            <button type="button" aria-label="search">
-                                лупа
-                            </button>
-                        </form>
+                    <div class="pages">
+                        <ul class="pages-list">
+                            <li>
+                                <a class="pages-link" href="#">Корпоративным клиентам</a>
+                            </li>
+                            <li>
+                                <a class="pages-link" href="#">Частным клиентам</a>
+                            </li>
+                            <li>
+                                <a class="pages-link" href="#">Private banking</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="bank-btn" aria-label="">Онлайн - банк</button>
                     </div>
                 </div>
-                <div class="pages">
-                    <ul class="pages-list">
-                        <li>
-                            <a class="pages-link" href="#">Корпоративным клиентам</a>
-                        </li>
-                        <li>
-                            <a class="pages-link" href="#">Частным клиентам</a>
-                        </li>
-                        <li>
-                            <a class="pages-link" href="#">Private banking</a>
-                        </li>
-                    </ul>
-                    <button type="button" class="bank-btn" aria-label="">Онлайн - банк</button>
-                </div>
             </div>
-            
-            
-            
         </header>
         
 
 
 
-        <main class="main" role="">
-
+        <main class="main">
+            <div class="content">
+                <ul class="content-list">
+                    <li class="content-item">
+                        
+                         <svg class="picture" width="48" height="48">
+                             <use xlink:href="./src/svg/bank.svg" overflow="visible"/>
+                        </svg>
+                        <!-- <img class="content-picture" src="./src/icons/Ellipse.png" alt="bank"> -->
+                        <img class="content-picture" src="./src/svg/bank.svg" alt="bank">
+                    </li>
+                    <li class="content-item">
+                        <a class="content-link" href="#">
+                            <img class="content-picture" src="./src/icons/bank.png" alt="bank">
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a class="content-link" href="#">
+                            <img class="content-picture" src="./src/icons/bank.png" alt="bank">
+                        </a>
+                    </li>
+                    <li class="content-item">
+                        <a class="content-link" href="#">
+                            <img class="content-picture" src="./src/icons/bank.png" alt="bank">     
+                        </a>
+                    </li>
+            </div>
         </main>
 
 
@@ -142,21 +167,22 @@
                         </ul>
                     </div>
                 </div>
+
                 
-                <div>
+                <div class="cr-container">
                     <div class="copyright">
                         <p>© 2021 АО АКБ «МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ»<br>
                             Информация о процентных ставках по договорам банковского вклада с физическими лицами</p>
                     </div>
                     <div class="social_links">
-                        <ul>
-                            <li>
+                        <ul class="social_links-list">
+                            <li class="social_links-item">
                                 <a href="#">instagram</a>
                             </li>
-                            <li>
+                            <li class="social_links-item">
                                 <a href="#">twitter</a>
                             </li>
-                            <li>
+                            <li class="social_links-item">
                                 <a href="#">facebook</a>
                             </li>
                         </ul>
