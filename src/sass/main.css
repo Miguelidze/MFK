@@ -265,23 +265,26 @@ summary {
   height: 2200px;
 }
 
-.picture {
+.content-picture {
   fill: red;
   height: 48px;
   width: 48px;
-  background-image: url(../../icons/Ellipse.png);
 }
 
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 158px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   padding: 24px 80px 0px 84px;
 }
 
 .header {
-  height: 158px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   background: linear-gradient(274.25deg, #00205B -9.03%, #00A3E0 138.82%);
 }
 
@@ -641,6 +644,55 @@ summary {
       -ms-flex-align: end;
           align-items: flex-end;
   color: #FFFFFF;
+}
+
+.page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  left: 30.69%;
+  right: 30.97%;
+  top: 38%;
+}
+
+.page-item {
+  width: 115px;
+  height: 85px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(158, 158, 158, 0.17);
+          box-shadow: 0px 4px 4px rgba(158, 158, 158, 0.17);
+  border-radius: 2px;
+}
+
+.page__icon {
+  background: linear-gradient(224.4deg, #7B1931 -23.64%, #E05226 113.52%);
+}
+
+.page-more {
+  width: 48px;
+  height: 48px;
+}
+
+.page__text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  color: #595959;
+  position: relative;
 }
 
 body {

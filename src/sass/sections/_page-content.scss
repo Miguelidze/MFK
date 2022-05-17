@@ -1,0 +1,40 @@
+.page-content{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    position: absolute;
+    left: 30.69%;
+    right: 30.97%;
+    top: 38%;
+}
+.page-item{
+    width: 115px;
+    height: 85px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(158, 158, 158, 0.17);
+    border-radius: 2px;
+}
+.page-link{
+
+}
+.page__icon {
+   background: linear-gradient(224.4deg, #7B1931 -23.64%, #E05226 113.52%);
+    
+}
+.page-more{
+    width:48px;
+    height:48px;
+}
+.page__text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #595959;
+    position:relative;
+}
