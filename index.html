@@ -40,9 +40,11 @@
                         <div class="search-box">
                             <form class="search-form-action">
                                 <input class="search-form-input" type="search"  placeholder="Поиск" color="white"/>
-                                <!-- <button type="button" aria-label="search">
-                                    лупа
-                                </button> -->
+                                <button class="search-btn" type="button" aria-label="search" >
+                                    <svg class="search-icon">
+                                        <use href="./src/svg/sprite/symbol-defs.svg#icon-search"/>
+                                    </svg>
+                                </button>
                             </form>
                         </div>
                     </div>
@@ -67,8 +69,16 @@
         <div class="page-content">
             <div class="page-item">
                 <a class="page-link" href="#">
-                    <svg class="page-more">
-                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-bank"/>
+                    <svg class="page-more" viewBox="0 0 32 32">
+                        
+                        <!-- Градиент -->
+                        <!-- <linearGradient id="linear-gradient">
+                            <stop offset="0%" stop-color="#E05226" />
+                            <stop offset="100%" stop-color="#7B1931" />
+                        </linearGradient> -->
+                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-bank" />
+                        <!-- Фигура с градиентной заливкой -->
+                        <!-- <rect fill="url(#linear-gradient)" width="100%" height="100%"/> -->
                     </svg>
                     <p class="page__text">Банковское обслуживание</p>
                 </a>
@@ -76,7 +86,7 @@
             <div class="page-item">
                 <a class="page-link" href="#">
                     <svg class="page-more">
-                        <use xlink:href="" />
+                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-deposite" />
                     </svg>
                     <p class="page__text">Депозиты</p>
                 </a>
@@ -84,7 +94,7 @@
             <div class="page-item">
                 <a class="page-link" href="#">
                     <svg class="page-more">
-                        <use xlink:href="" />
+                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-credite" />
                     </svg>
                     <p class="page__text">Кредитование</p>
                 </a>
@@ -92,29 +102,31 @@
             <div class="page-item">
                 <a class="page-link" href="#">
                     <svg class="page-more">
-                        <use xlink:href="" />
+                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-garanties" />
                     </svg>
                     <p class="page__text">Аккредитивы и гарантии</p>
                 </a>
             </div>
-            <button>
-
-            </button>
+        </div>
+        
+        <button class="btn btn-primary" type="button" >Оставить заявку
+        </button>
         </div>
         
 
 
 
         <main class="main">
-            <div class="content">
+            
+            <!-- <div class="content">
                 <ul class="content-list">
                     <li class="content-item">
                         
                          <svg class="picture" width="48" height="48">
                              <use xlink:href="./src/svg/bank.svg" overflow="visible">
                         </svg>
-                        <!-- <img class="content-picture" src="./src/icons/Ellipse.png" alt="bank"> -->
-                        <!-- <img class="content-picture" src="./src/svg/bank.svg" alt="bank"> -->
+                         <img class="content-picture" src="./src/icons/Ellipse.png" alt="bank">
+                        <img class="content-picture" src="./src/svg/bank.svg" alt="bank">
                     </li>
                     <li class="content-item">
                         <a class="content-link" href="#">
@@ -131,7 +143,7 @@
                             <img class="content-picture" src="./src/icons/bank.png" alt="bank">     
                         </a>
                     </li>
-            </div>
+             </div> -->
         </main>
 
 
@@ -139,13 +151,13 @@
 
 
         <footer class="footer">
-            <div class="logo-footer">
-                <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px"/>
-                <span class="logo-title">
-                    <p>международный <br>финансовый<br>клуб</p>
-                </span>
-            </div>
-            <div>
+            <div class="footer__container">
+                <div class="logo-footer">
+                    <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px" />
+                    <span class="logo-title">
+                        <p>международный <br>финансовый<br>клуб</p>
+                    </span>
+                </div>
                 <div class="info-block">
                     <div class="contacts-footer">
                         <ul class="contacts-footer-list">
@@ -205,28 +217,38 @@
                         </ul>
                     </div>
                 </div>
-
-                
-                <div class="cr-container">
-                    <div class="copyright">
-                        <p>© 2021 АО АКБ «МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ»<br>
-                            Информация о процентных ставках по договорам банковского вклада с физическими лицами</p>
-                    </div>
-                    <div class="social_links">
-                        <ul class="social_links-list">
-                            <li class="social_links-item">
-                                <a href="#">instagram</a>
-                            </li>
-                            <li class="social_links-item">
-                                <a href="#">twitter</a>
-                            </li>
-                            <li class="social_links-item">
-                                <a href="#">facebook</a>
-                            </li>
-                        </ul>
-                    </div>
+            </div>  
+            <div class="cr-container">
+                <div class="copyright">
+                    <p>© 2021 АО АКБ «МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ»<br>
+                        Информация о процентных ставках по договорам банковского вклада с физическими лицами</p>
                 </div>
-            </div>    
+                <div class="social__links">
+                    <ul class="social__links-list">
+                        <li class="social__links-item">
+                            <a class="social__links-link" href="#">
+                                <svg class="social__picture">
+                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-instagram" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__links-item">
+                            <a class="social__links-link" href="#">
+                                <svg class="social__picture">
+                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-twitter" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__links-item">
+                            <a class="social__links-link" href="#">
+                                <svg class="social__picture">
+                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-facebook" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
