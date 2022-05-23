@@ -1,8 +1,12 @@
 @import './base/normalize';
 @import './base/content';
-@import './sections/header';
-@import './sections/footer';
-@import './sections/page-content';
+@import './base/header';
+@import './base/footer';
+@import './base/page-content';
+@import './sections/deposits';
+
+
+
 
 body {
     margin: 0px;
