@@ -9,6 +9,9 @@
 .second__text{
     color: #fff
 }
+.current-second__text{
+    color: #747474;
+}
 .second__title {
     margin-left: 30px;
     font-style: normal;
@@ -123,6 +126,7 @@
 .documentation__title{
     align-self: center;
     text-align: center;
+    padding-right: 30px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 600;

@@ -14,3 +14,11 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+
+.icon-arrow {
+  width: 1.0341796875em;
+}
+
+.icon-calendar {
+  width: 1.0458984375em;
+}

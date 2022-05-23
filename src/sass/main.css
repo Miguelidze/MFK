@@ -767,6 +767,10 @@ summary {
   color: #fff;
 }
 
+.current-second__text {
+  color: #747474;
+}
+
 .second__title {
   margin-left: 30px;
   font-style: normal;
@@ -933,6 +937,7 @@ summary {
       -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
+  padding-right: 30px;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 600;
@@ -1013,6 +1018,178 @@ summary {
 
 .documentation__content {
   margin-left: 10px;
+}
+
+.second__header-credits {
+  margin: 110px 80px 50px 80px;
+}
+
+.second__title-credits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #003772;
+}
+
+.second__text-credits {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #001843;
+}
+
+.current-second__text-credits {
+  color: #747474;
+}
+
+.credits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 61px 80px 100px 80px;
+}
+
+.credits__money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.credits__button {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #002E82;
+  -webkit-box-shadow: 0px 4px 4px rgba(107, 107, 107, 0.1);
+          box-shadow: 0px 4px 4px rgba(107, 107, 107, 0.1);
+}
+
+.credits__kind {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
+  height: auto;
+  left: 85px;
+  top: 453px;
+  background: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+}
+
+.credits__img {
+  width: 362px;
+  height: 172px;
+  margin: 20px 20px 40px 20px;
+}
+
+.credits__title {
+  margin: 0px 30px 25px 50px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #00205B;
+}
+
+.credits__check {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 40px 0px 20px;
+}
+
+.credits__check-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.check__text {
+  margin-left: 15px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4E4E4E;
+}
+
+.credits__calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.credits__svg {
+  fill: #002E82;
+  width: 22px;
+  height: 22px;
+}
+
+.credits__text {
+  margin-left: 10px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  color: #002E82;
+}
+
+.credits__recive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 50px;
 }
 
 body {
