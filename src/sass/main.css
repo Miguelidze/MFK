@@ -265,6 +265,8 @@ summary {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .container {
@@ -1062,9 +1064,10 @@ summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin: 61px 80px 100px 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .credits__money {
@@ -1192,10 +1195,102 @@ summary {
   padding-bottom: 50px;
 }
 
-body {
-  margin: 0px;
-  width: 100vw;
-  height: 100vh;
+.credite-kinds__documents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 70px;
+  background: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+}
+
+.rates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.rates__item {
+  height: auto;
+  margin-right: 50px;
+  background: #00205B;
+  border-radius: 5px;
+}
+
+.rates__link-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 50px 50px 50px 30px;
+}
+
+.rates__link {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.rates__svg {
+  margin-left: 30px;
+  width: 11px;
+  height: 22px;
+}
+
+.rates__item-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+}
+
+.rates__contacts {
+  margin: 0px 35px;
+}
+
+.rates__title {
+  margin-bottom: 10px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #00205B;
+}
+
+.rates__text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #777777;
 }
 
 * {

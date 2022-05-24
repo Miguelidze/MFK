@@ -4,6 +4,49 @@
     {
       "icon": {
         "paths": [
+          "M42.667 42.667l469.333 469.333-469.333 469.333"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "stroke": "rgb(255, 255, 255)",
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          }
+        ],
+        "width": 597,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "next"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "stroke": "rgb(255, 255, 255)",
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        }
+      ],
+      "properties": {
+        "order": 47,
+        "id": 0,
+        "name": "next",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 8,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M35.328 501.46l972.066-30.851",
           "M536.83 28.105l491.471 461.236",
           "M1018.001 486.368l-461.234 491.471"
@@ -74,7 +117,7 @@
         "name": "arrow",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 7,
       "iconIdx": 0
     },
@@ -178,7 +221,7 @@
         "name": "calendar",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 6,
       "iconIdx": 0
     },
@@ -210,7 +253,7 @@
         "name": "instagram",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 5,
       "iconIdx": 0
     },
@@ -249,7 +292,7 @@
         "name": "more",
         "prevSize": 32
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 4,
       "iconIdx": 0
     },
@@ -298,7 +341,7 @@
         "name": "twitter",
         "prevSize": 32
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 4,
       "iconIdx": 1
     },
@@ -337,7 +380,7 @@
         "name": "search",
         "prevSize": 32
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 4,
       "iconIdx": 2
     },
@@ -376,7 +419,7 @@
         "name": "phone",
         "prevSize": 32
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 4,
       "iconIdx": 3
     },
@@ -425,7 +468,7 @@
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 4,
       "iconIdx": 5
     },
@@ -492,7 +535,7 @@
         "name": "info",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 2,
       "iconIdx": 0
     },
@@ -562,7 +605,7 @@
         "name": "garanties",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 2,
       "iconIdx": 1
     },
@@ -619,7 +662,7 @@
         "name": "deposite",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 2,
       "iconIdx": 2
     },
@@ -676,7 +719,7 @@
         "name": "credite",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 2,
       "iconIdx": 3
     },
@@ -733,7 +776,7 @@
         "name": "bank",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 2,
       "iconIdx": 4
     }
