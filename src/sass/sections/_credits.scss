@@ -1,5 +1,5 @@
 .second__header-credits{
-    margin: 110px 80px 50px 80px;
+    margin-bottom: 60px;
 }
 .second__title-credits{
     display: flex;
@@ -13,6 +13,9 @@
     line-height: 45px;
     color: #003772;
 }
+.second__text-credits__list{
+    margin-bottom: 60px;
+}
 .second__text-credits{
     font-family: 'Helvetica';
     font-style: normal;
@@ -20,6 +23,7 @@
     font-size: 16px;
     line-height: 18px;
     color: #001843;
+    // margin: 0px 15px;
 }
 .current-second__text-credits{
     color: #747474;
