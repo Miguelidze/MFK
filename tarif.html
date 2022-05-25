@@ -16,113 +16,113 @@
 </head>
 
 <body>
-    <div>
         <header class="header">
-            <div class="container">
-                <div class="logo">
-                    <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px" />
-                    <span class="logo-title">
-                        <p>международный <br>финансовый<br>клуб</p>
-                    </span>
-                </div>
-                <div class="first-header">
-                    <div class="about">
-                        <ul class="about-list">
-                            <li>
-                                <a class="about-link" href="#">О банке</a>
-                            </li>
-                            <li>
-                                <a class="about-link" href="#">Банковская группа</a>
-                            </li>
-                            <li>
-                                <a class="about-link" href="#">Новости</a>
-                            </li>
-                        </ul>
-                        <div class="contacts">
-                            <a class="contacts-link" href="tel:+7495287-02-60">
-                                <svg class="contacts-image">
-                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-phone"></use>
-                                </svg>
-                                +7 495 287-02-60
-                            </a>
-                        </div>
-                        <div class="search-box">
-                            <form class="search-form-action">
-                                <input class="search-form-input" type="search" placeholder="Поиск" color="white" />
-                                <button class="search-btn" type="button" aria-label="search">
-                                    <svg class="search-icon">
-                                        <use href="./src/svg/sprite/symbol-defs.svg#icon-search" />
+            <section class="container">
+                <div class="header-section">
+                    <div class="logo">
+                        <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px" />
+                        <span class="logo-title">
+                            <p>международный <br>финансовый<br>клуб</p>
+                        </span>
+                    </div>
+                    <div class="first-header">
+                        <div class="about">
+                            <ul class="about-list">
+                                <li>
+                                    <a class="about-link" href="#">О банке</a>
+                                </li>
+                                <li>
+                                    <a class="about-link" href="#">Банковская группа</a>
+                                </li>
+                                <li>
+                                    <a class="about-link" href="#">Новости</a>
+                                </li>
+                            </ul>
+                            <div class="contacts">
+                                <a class="contacts-link" href="tel:+7495287-02-60">
+                                    <svg class="contacts-image">
+                                        <use href="./src/svg/sprite/symbol-defs.svg#icon-phone"></use>
                                     </svg>
-                                </button>
-                            </form>
+                                    +7 495 287-02-60
+                                </a>
+                            </div>
+                            <div class="search-box">
+                                <form class="search-form-action">
+                                    <input class="search-form-input" type="search" placeholder="Поиск" color="white" />
+                                    <button class="search-btn" type="button" aria-label="search">
+                                        <svg class="search-icon">
+                                            <use href="./src/svg/sprite/symbol-defs.svg#icon-search" />
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="pages">
+                            <ul class="pages-list">
+                                <li>
+                                    <a class="pages-link current" href="#">Корпоративным клиентам</a>
+                                </li>
+                                <li>
+                                    <a class="pages-link" href="#">Частным клиентам</a>
+                                </li>
+                                <li>
+                                    <a class="pages-link" href="#">Private banking</a>
+                                </li>
+                            </ul>
+                            <button type="button" class="bank-btn" aria-label="">Онлайн - банк</button>
                         </div>
                     </div>
-                    <div class="pages">
-                        <ul class="pages-list">
-                            <li>
-                                <a class="pages-link current" href="#">Корпоративным клиентам</a>
-                            </li>
-                            <li>
-                                <a class="pages-link" href="#">Частным клиентам</a>
-                            </li>
-                            <li>
-                                <a class="pages-link" href="#">Private banking</a>
-                            </li>
-                        </ul>
-                        <button type="button" class="bank-btn" aria-label="">Онлайн - банк</button>
-                    </div>
+                </div>
+            </section>
+        </header>
+        <section class="container">
+            <div class="page-content">
+                <div class="page-item current__page">
+                    <a class="page-link" href="./operations.html">
+                        <svg class="page__more current__item" viewBox="0 0 32 32">
+            
+                            <!-- Градиент -->
+                            <!-- <linearGradient id="linear-gradient">
+                                        <stop offset="0%" stop-color="#E05226" />
+                                        <stop offset="100%" stop-color="#7B1931" />
+                                    </linearGradient> -->
+                            <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-bank" />
+                            <!-- Фигура с градиентной заливкой -->
+                            <!-- <rect fill="url(#linear-gradient)" width="100%" height="100%"/> -->
+                        </svg>
+                        <p class="page__text current__text">Банковское обслуживание</p>
+                    </a>
+                </div>
+                <div class="page-item">
+                    <a class="page-link" href="./deposits.html">
+                        <svg class="page__more">
+                            <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-deposite" />
+                        </svg>
+                        <p class="page__text ">Депозиты</p>
+                    </a>
+                </div>
+                <div class="page-item">
+                    <a class="page-link" href="./credits.html">
+                        <svg class="page__more">
+                            <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-credite" />
+                        </svg>
+                        <p class="page__text">Кредитование</p>
+                    </a>
+                </div>
+                <div class="page-item">
+                    <a class="page-link" href="#">
+                        <svg class="page__more">
+                            <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-garanties" />
+                        </svg>
+                        <p class="page__text">Аккредитивы и гарантии</p>
+                    </a>
                 </div>
             </div>
-        </header>
-
-        <div class="page-content">
-            <div class="page-item current__page">
-                <a class="page-link" href="./operations.html">
-                    <svg class="page__more current__item" viewBox="0 0 32 32">
-
-                        <!-- Градиент -->
-                        <!-- <linearGradient id="linear-gradient">
-                            <stop offset="0%" stop-color="#E05226" />
-                            <stop offset="100%" stop-color="#7B1931" />
-                        </linearGradient> -->
-                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-bank" />
-                        <!-- Фигура с градиентной заливкой -->
-                        <!-- <rect fill="url(#linear-gradient)" width="100%" height="100%"/> -->
-                    </svg>
-                    <p class="page__text current__text">Банковское обслуживание</p>
-                </a>
-            </div>
-            <div class="page-item">
-                <a class="page-link" href="./deposits.html">
-                    <svg class="page__more">
-                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-deposite" />
-                    </svg>
-                    <p class="page__text ">Депозиты</p>
-                </a>
-            </div>
-            <div class="page-item">
-                <a class="page-link" href="./credits.html">
-                    <svg class="page__more">
-                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-credite" />
-                    </svg>
-                    <p class="page__text">Кредитование</p>
-                </a>
-            </div>
-            <div class="page-item">
-                <a class="page-link" href="#">
-                    <svg class="page__more">
-                        <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-garanties" />
-                    </svg>
-                    <p class="page__text">Аккредитивы и гарантии</p>
-                </a>
-            </div>
-        </div>
-    </div>
-
+        </section>
 
     <!-- Main content-->
 
-    <main class="main__content">
+    <section class="main__content container">
         <div class="second__header-operations">
             <div class="second__text-credits__list">
                 <a class="second__text-credits" href="#">Главная /</a>
@@ -142,7 +142,7 @@
                         <a href="./ved.html" class="operations__link">ВЭД</a>
                     </li>
                     <li class="operations__list-item">
-                        <a href="" class="operations__link">Специальные счета</a>
+                        <a href="./specialchecks.html" class="operations__link">Специальные счета</a>
                     </li>
                     <li class="operations__list-item">
                         <a href="" class="operations__link">Дистанционные сервисы</a>
@@ -193,108 +193,109 @@
                 </div>
             </div>
         </div>
-    </main>
+    </section>
     <footer class="footer">
-        <div class="footer__container">
-            <div class="logo-footer">
-                <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px" />
-                <span class="logo-title">
-                    <p>международный <br>финансовый<br>клуб</p>
-                </span>
+        <section class="container">
+            <div class="footer__container">
+                <div class="logo-footer">
+                    <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px" />
+                    <span class="logo-title">
+                        <p>международный <br>финансовый<br>клуб</p>
+                    </span>
+                </div>
+                <div class="info-block">
+                    <div class="contacts-footer">
+                        <ul class="contacts-footer-list">
+                            <li class="contacts-footer-item">
+                                <a class="contacts-footer-link" href="#">Корпоративным клиентам</a>
+                                <h3 class="contacts-footer-heading">
+                                    Головной офис банка МФК <br>расположен по адресу:
+                                </h3>
+                                <span class="contacts-footer-text">
+                                    г. Москва, Пресненская <br>набережная, д. 10
+                                </span>
+                            </li>
+                            <li class="contacts-footer-item">
+                                <a class="contacts-footer-link" href="#">Частным клиентам</a>
+                                <h3 class="contacts-footer-heading">
+                                    Телефоны call-центра:
+                                </h3>
+                                <span class="contacts-footer-text">
+                                    + 7 495 287-02-60
+                                </span>
+                                <h3 class="contacts-footer-heading">
+                                    Факс:
+                                </h3>
+                                <span class="contacts-footer-text">
+                                    +7 495 287-02-62
+                                </span>
+                            </li>
+                            <li class="contacts-footer-item">
+                                <a class="contacts-footer-link" href="#">Private banking</a>
+                                <h3 class="contacts-footer-heading">
+                                    Телефон:
+                                </h3>
+                                <span class="contacts-footer-text">
+                                    +7 495 644-35-82
+                                </span>
+                                <h3 class="contacts-footer-heading">
+                                    Эл. почта:
+                                </h3>
+                                <span class="contacts-footer-text">
+                                    media@mfk-bank.ru <br>info@mfk-bank.ru
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-footer">
+                        <a class="nav-footer-link" href="#">Онлайн - банк</a>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">О банке</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Банковская группа</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Новости</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="info-block">
-                <div class="contacts-footer">
-                    <ul class="contacts-footer-list">
-                        <li class="contacts-footer-item">
-                            <a class="contacts-footer-link" href="#">Корпоративным клиентам</a>
-                            <h3 class="contacts-footer-heading">
-                                Головной офис банка МФК <br>расположен по адресу:
-                            </h3>
-                            <span class="contacts-footer-text">
-                                г. Москва, Пресненская <br>набережная, д. 10
-                            </span>
+            <div class="cr-container">
+                <div class="copyright">
+                    <p>© 2021 АО АКБ «МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ»<br>
+                        Информация о процентных ставках по договорам банковского вклада с физическими лицами</p>
+                </div>
+                <div class="social__links">
+                    <ul class="social__links-list">
+                        <li class="social__links-item">
+                            <a class="social__links-link" href="#">
+                                <svg class="social__picture">
+                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-instagram" />
+                                </svg>
+                            </a>
                         </li>
-                        <li class="contacts-footer-item">
-                            <a class="contacts-footer-link" href="#">Частным клиентам</a>
-                            <h3 class="contacts-footer-heading">
-                                Телефоны call-центра:
-                            </h3>
-                            <span class="contacts-footer-text">
-                                + 7 495 287-02-60
-                            </span>
-                            <h3 class="contacts-footer-heading">
-                                Факс:
-                            </h3>
-                            <span class="contacts-footer-text">
-                                +7 495 287-02-62
-                            </span>
+                        <li class="social__links-item">
+                            <a class="social__links-link" href="#">
+                                <svg class="social__picture">
+                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-twitter" />
+                                </svg>
+                            </a>
                         </li>
-                        <li class="contacts-footer-item">
-                            <a class="contacts-footer-link" href="#">Private banking</a>
-                            <h3 class="contacts-footer-heading">
-                                Телефон:
-                            </h3>
-                            <span class="contacts-footer-text">
-                                +7 495 644-35-82
-                            </span>
-                            <h3 class="contacts-footer-heading">
-                                Эл. почта:
-                            </h3>
-                            <span class="contacts-footer-text">
-                                media@mfk-bank.ru <br>info@mfk-bank.ru
-                            </span>
+                        <li class="social__links-item">
+                            <a class="social__links-link" href="#">
+                                <svg class="social__picture">
+                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-facebook" />
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
-                <div class="nav-footer">
-                    <a class="nav-footer-link" href="#">Онлайн - банк</a>
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">О банке</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Банковская группа</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Новости</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
-        </div>
-        <div class="cr-container">
-            <div class="copyright">
-                <p>© 2021 АО АКБ «МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ»<br>
-                    Информация о процентных ставках по договорам банковского вклада с физическими лицами</p>
-            </div>
-            <div class="social__links">
-                <ul class="social__links-list">
-                    <li class="social__links-item">
-                        <a class="social__links-link" href="#">
-                            <svg class="social__picture">
-                                <use href="./src/svg/sprite/symbol-defs.svg#icon-instagram" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social__links-item">
-                        <a class="social__links-link" href="#">
-                            <svg class="social__picture">
-                                <use href="./src/svg/sprite/symbol-defs.svg#icon-twitter" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social__links-item">
-                        <a class="social__links-link" href="#">
-                            <svg class="social__picture">
-                                <use href="./src/svg/sprite/symbol-defs.svg#icon-facebook" />
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        </section>
     </footer>
-    </div>
 </body>
 
 </html>

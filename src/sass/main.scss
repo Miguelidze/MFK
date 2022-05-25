@@ -8,8 +8,13 @@
 @import './sections/operations';
 @import './sections/accountopen';
 @import './sections/ved';
+@import './sections/specialchecks';
 
-
+.container {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
 // body {
 //     // margin: 0px;
 //     // width: 100vw;
