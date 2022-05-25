@@ -1548,6 +1548,15 @@ summary {
   margin-right: 25px;
 }
 
+.accountopen__check-text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #727272;
+}
+
 .accountopen__check-item {
   display: -webkit-box;
   display: -ms-flexbox;
