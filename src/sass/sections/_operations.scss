@@ -2,8 +2,8 @@
     margin-bottom: 75px;
 }
 .operations {
- display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .operations__list {
@@ -24,6 +24,7 @@ justify-content: space-between;
 .current-operations__link{
     padding: 20px 85px 10px 55px;
     color:#00A3E0;
+    font-weight: 700;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(86, 31, 0, 0.1);
     border-radius: 2px;
