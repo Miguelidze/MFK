@@ -3,11 +3,9 @@
 }
 .operations {
  display: flex;
-
+justify-content: space-between;
 }
-.operations__item{
 
-}
 .operations__list {
     width: max-content;
 }
