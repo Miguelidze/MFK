@@ -77,20 +77,20 @@
     </header>
     <section class="container">
         <div class="page-content">
-            <div class="page-item current__page">
+            <div class="page-item">
                 <a class="page-link" href="./operations.html">
-                    <svg class="page__more current__item" viewBox="0 0 32 32">
+                    <svg class="page__more" viewBox="0 0 32 32">
 
                         <!-- Градиент -->
                         <!-- <linearGradient id="linear-gradient">
-                                        <stop offset="0%" stop-color="#E05226" />
-                                        <stop offset="100%" stop-color="#7B1931" />
-                                    </linearGradient> -->
+                                                        <stop offset="0%" stop-color="#E05226" />
+                                                        <stop offset="100%" stop-color="#7B1931" />
+                                                    </linearGradient> -->
                         <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-bank" />
                         <!-- Фигура с градиентной заливкой -->
                         <!-- <rect fill="url(#linear-gradient)" width="100%" height="100%"/> -->
                     </svg>
-                    <p class="page__text current__text">Банковское обслуживание</p>
+                    <p class="page__text">Банковское обслуживание</p>
                 </a>
             </div>
             <div class="page-item">
@@ -98,168 +98,176 @@
                     <svg class="page__more">
                         <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-deposite" />
                     </svg>
-                    <p class="page__text ">Депозиты</p>
+                    <p class="page__text">Депозиты</p>
                 </a>
             </div>
-            <div class="page-item">
+            <div class="page-item ">
                 <a class="page-link" href="./credits.html">
-                    <svg class="page__more">
+                    <svg class="page__more ">
                         <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-credite" />
                     </svg>
-                    <p class="page__text">Кредитование</p>
+                    <p class="page__text ">Кредитование</p>
                 </a>
             </div>
-            <div class="page-item">
+            <div class="page-item current__page">
                 <a class="page-link" href="./garanty.html">
-                    <svg class="page__more">
+                    <svg class="page__more current__item">
                         <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-garanties" />
                     </svg>
-                    <p class="page__text">Аккредитивы и гарантии</p>
+                    <p class="page__text current__text">Аккредитивы и гарантии</p>
                 </a>
             </div>
         </div>
     </section>
 
+
     <!-- Main content-->
-    <section class="container">
-        <div class="main__content">
-            <div class="second__header-operations">
-                <div class="second__text-credits__list">
-                    <a class="second__text-credits" href="#">Главная /</a>
-                    <a class="second__text-credits" href="#">Корпоративным клиентам /</a>
-                    <a class="second__text-credits" href="#">Банковское обслуживание /</a>
-                    <a class="second__text-credits current-second__text-credits" href="./specialchecks.html">Специальные
-                        счета</a>
-                </div>
+
+    <section class="main__content container">
+        <div class="second__header-credits">
+            <div class="second__text-credits__list">
+                <a class="second__text-credits" href="#">Главная /</a>
+                <a class="second__text-credits" href="#">Корпоративным клиентам /</a>
+                <a class="second__text-credits current-second__text-credits" href="./garanty.html">Аккредетивы и гарантии</a>
             </div>
-            <div class="operations">
-                <div class="operations__item">
-                    <ul class="operations__list">
-                        <li class="operations__list-item">
-                            <a href="./accountopen.html" class="operations__link ">Открытие расчетного счета</a>
+        </div>
+        <div class="garanty">
+            <div class="garanty__kind">
+                <div class="garanty__header">
+                    <h6 class="garanty__title">
+                        Аккредитивы
+                        <svg class="garanty__info">
+                            <use href="./src/svg/sprite/symbol-defs.svg#icon-info" />
+                        </svg>
+                    </h6>
+                    
+                    <div class="modal-acreditation">
+                        <p class="acreditation-text">
+                            Банк оценивает кредитный риск по выдаваемым гарантиям в соответствии с процедурой, аналогичной классическому
+                            кредитованию, срок рассмотрения выдачи гарантий от 2 недель.
+                            Гарантии с предоставлением 100% денежного покрытия (обеспечительного платежа) выдаются в течение 3–5 дней с момента
+                            предоставления всех требуемых документов.
+                        </p>
+                    </div>
+                </div>
+                <ul class="garanty__list">
+                   <li class="garanty__item">
+                    Выставление аккредитивов по поручению клиентов Банка как по импортным, так и по внутрироссийским контрактам, в том
+                    числе, с предоставлением финансирования сроком до 1 года;
+                   </li>
+                   <li class="garanty__item">
+                    Выставление аккредитивов по договорам купли-продажи недвижимости;
+                   </li>
+                   <li class="garanty__item">
+                    Авизование аккредитивов в ин.валюте и российских рублях в том числе с предоставлением финансирования сроком до 6 мес;
+                   </li>
+                   <li class="garanty__item">
+                    Консультирование клиентов по оформлению условий контрактов (импортных и экспортных) в части расчетов с применением
+                    документарных аккредитивов и гарантий, с предоставлением рекомендаций по минимизации рисков клиентов с целью защиты их
+                    интересов;
+                   </li>
+                   <li class="garanty__item">
+                    Консультирование по корректному оформлению документов по аккредитиву с их предварительной проверкой;
+                   </li> 
+                </ul>
+                <button class="garanty__btn">
+                    Оформить аккредитив
+                </button>
+            </div>
+            <div class="garanty__kind">
+                <div class="garanty__header">
+                    <h6 class="garanty__title">
+                        Гарантии
+                        <svg class="garanty__info">
+                            <use href="./src/svg/sprite/symbol-defs.svg#icon-info" />
+                        </svg>
+                    </h6>
+                    
+                    <div class="modal-garanty">
+                        <p class="garanty-text">
+                            Банк оценивает кредитный риск по выдаваемым гарантиям в соответствии с процедурой, аналогичной классическому
+                            кредитованию, срок рассмотрения выдачи гарантий от 2 недель.
+                            Гарантии с предоставлением 100% денежного покрытия (обеспечительного платежа) выдаются в течение 3–5 дней с момента
+                            предоставления всех требуемых документов.
+                        
+                        </p>
+                    </div>
+                </div>
+                <div class="gararnty__togle">
+                    <ul class="garanty__list">
+                        <li class="garanty__item">
+                            гарантии на возврат авансового платежа;
                         </li>
-                        <li class="operations__list-item">
-                            <a href="./ved.html" class="operations__link ">ВЭД</a>
+                        <li class="garanty__item">
+                            арантии конкурсной заявки (тендерные): 44-ФЗ и 223-ФЗ;
                         </li>
-                        <li class="operations__list-item current-operations__list-item">
-                            <a href="./specialchecks.html" class="operations__link current-operations__link">Специальные
-                                счета
-                            </a>
-                            <img src="./src/images/arrow.png" alt="arrow" class="operations__picture" width="20px" height="20px">
+                        <li class="garanty__item">
+                            гарантии исполнения договорных обязательств (коммерческие, по 44-ФЗ и 223-ФЗ по государственным контрактам);
                         </li>
-                        <li class="operations__list-item">
-                            <a href="" class="operations__link">Дистанционные сервисы</a>
-                        </li>
-                        <li class="operations__list-item">
-                            <a href="./operations.html" class="operations__link">Операции с ценными бумагами</a>
-                        </li>
-                        <li class="operations__list-item">
-                            <a href="./tarif.html" class="operations__link">Тарифы</a>
-                        </li>
-                        <li class="operations__list-item">
-                            <a href="" class="operations__link">Документы</a>
+                        <li class="garanty__item">
+                            ФТС (таможенного брокера, платежа);
                         </li>
                     </ul>
+                    <button class="garanty__btn">
+                        Получить гарантию
+                    </button>
                 </div>
-                <div class="operations__item">
-                    <div class="ved">
-                        <div class="ved__kind">
-                            <div class="specialchecks__item">
-                                <img src="./src/images/circle.png" alt="circle" width="15px" height="15px">
-                                <a class="specialchecks__link" href="#">
-                                    Специальные банковские счета платежных агентов, поставщиков
-                                </a>
-                            </div>
-                            <div class="specialchecks__item">
-                                <img src="./src/images/circle.png" alt="circle" width="15px" height="15px">
-                                <a class="specialchecks__link" href="#">
-                                    Залоговые счета
-                                </a>
-                            </div>
-                        </div>
+                
+            </div>
+        </div>
+
+        <div class="deposite-kinds">
+            <div class="credite-kinds__documents">
+                <div class="deposite-kinds__documentation">
+                    <div class="documentation__title">
+                        Документы
                     </div>
-                    <div class="operations__documentation">
-                        <div class="operations__documentation-nav">
-                            <div class="operations__documentation-block">
-                                <div>
-                                    <h3 class="operations__documentation-title">
-                                        Документы, оформляемые для целей валютного контроля
-                                    </h3>
-                                </div>
-                                <div class="operations__documentation-list">
-                                    <div class="operations__documentation-item">
-                                        <div class="operations__documentation-kind">
-                                            <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
-                                            <div class="operations__documentation-content">
-                                                <H5 class="operations__documentation-description">
-                                                    Заявление о постановке на учет контракта (кредитного договора)
-                                                </H5>
-                                                <p class="operations__documentation-caracter">
-                                                    PDF, 279 КБ / 04 июня 2018
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="operations__documentation-kind">
-                                            <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
-                                            <div class="operations__documentation-content">
-                                                <H5 class="operations__documentation-description">
-                                                    Сведения о валютных операциях
-                                                </H5>
-                                                <p class="operations__documentation-caracter">
-                                                    PDF, 279 КБ / 04 июня 2018
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="operations__documentation-kind">
-                                            <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
-                                            <div class="operations__documentation-content">
-                                                <H5 class="operations__documentation-description">
-                                                    Справка о подтверждающих документах
-                                                </H5>
-                                                <p class="operations__documentation-caracter">
-                                                    PDF, 279 КБ / 04 июня 2018
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="documentation__list">
+                        <div class="documentation__item">
+                            <div class="documentation__kind">
+                                <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
+                                <div class="documentation__content">
+                                    <H5 class="documentation__description">
+                                        Перечень страховых организаций, удовлетворяющих требованиям Банка
+                                    </H5>
+                                    <p class="documentation__caracter">
+                                        PDF, 279 КБ / 04 июня 2018
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <button class="documentation__more" type="button" id="more">
-                            Смотреть все
-                            <svg class="more-picture">
-                                <use href="./src/svg/sprite/symbol-defs.svg#icon-more" />
-                            </svg>
-                        </button>
                     </div>
-                    <div class="rates operations__rates">
-                        <div class="rates__item">
-                            <div class="rates__link-item">
-                                <a class="rates__link" href="#">
-                                    Тарифы на РКО
-                                </a>
-                                <svg class="rates__svg">
-                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-next" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="rates__item-contacts">
-                            <div class="rates__contacts">
-                                <h5 class="rates__title">
-                                    Контакты:
-                                </h5>
-                                <p class="rates__text">
-                                    info@mfk-bank.ru<br>
-                                    +7 495 287-02-60
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <button class="documentation__more" type="button" id="more">
+                    Смотреть все
+                    <svg class="more-picture">
+                        <use href="./src/svg/sprite/symbol-defs.svg#icon-more" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="rates">
+            <div class="rates__item">
+                <div class="rates__link-item">
+                    <a class="rates__link" href="#">
+                        Тарифы на РКО
+                    </a>
+                    <svg class="rates__svg">
+                        <use href="./src/svg/sprite/symbol-defs.svg#icon-next" />
+                    </svg>
+                </div>
+            </div>
+            <div class="rates__item-contacts">
+                <div class="rates__contacts">
+                    <h5 class="rates__title">Контакты:</h5>
+                    <p class="rates__text">
+                        DKB@mfk-bank.ru<br>
+                        +7 495 287-02-60
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-    
     <footer class="footer">
         <section class="container">
             <div class="footer__container">
