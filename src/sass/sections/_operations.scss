@@ -6,12 +6,16 @@
     justify-content: space-between;
     margin-bottom: 100px;
 }
-
+.operations__item:not(:last-child){
+    padding-right: 15px;
+}
 .operations__list {
+    display: flex;
+    flex-direction: column;
     width: max-content;
 }
 .operations__list-item {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .operations__link {
     font-family: 'Gilroy';
@@ -23,12 +27,21 @@
     color: #727272;
 }
 .current-operations__link{
-    padding: 20px 85px 10px 55px;
-    color:#00A3E0;
+    color:#2F4670;
     font-weight: 700;
+}
+.current-operations__list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 11px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(86, 31, 0, 0.1);
     border-radius: 2px;
+}
+.operations__picture {
+
 }
 .operations__kind{
     display: flex;
