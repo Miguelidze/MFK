@@ -5,13 +5,23 @@
 .garanty__kind{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: -webkit-fill-available;
     background: linear-gradient(222.02deg, rgba(0, 66, 188, 0.15) -11.58%, rgba(0, 186, 255, 0.15) 125.94%);
     border: 1px solid #D1D1D1;
     box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
     border-radius: 5px;
-    
+    padding-bottom: 72px;
+    padding-top: 49px;
+}
+.garanty__kind:not(:last-child){
+    margin-right: 38px;
+}
+.garanty__togle {
+    margin-bottom: 30px;
 }
 .garanty__header{
+    display: flex;
     margin-bottom: 30px;
 }
 .garanty__title{
@@ -21,35 +31,92 @@
     font-size: 20px;
     line-height: 23px;
     color: #00205B;
+    margin-left: 65px;
+
 }
-.garanty__info{
+.garanty__info,
+.acreditation__info {
+    overflow: hidden;
+    fill: #a5a4a4;
+    stroke: #a5a4a4;
     width: 19px;
     height: 19px;
 }
-.modal-acreditation{
-
+.garanty__info:hover ,
+.garanty__info:focus,
+.acreditation__info:hover,
+.acreditation__info:focus {
+    fill: blue;
+    stroke: blue;
 }
-.modal-garanty{
-
+.modal-acreditation {
+    position: absolute;
+    opacity: 1;
+    top: 58%;
+    left: 26%;
+    width: 380px;
+    height: 162px;
+    background: #EFF5FF;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
-.acreditation-text{
-
+.acreditation-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding:10px 7px 9px 8px;
+    color: #737373;
 }
-.gararnty__togle{
-    margin-bottom: 72px;
+.modal-garanty {
+    position: absolute;
+    opacity: 1;
+    top: 58%;
+    left: 62%;
+    width: 380px;
+    height: 162px;
+    background: #EFF5FF;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
-.garanty__list{
-    margin-left: 104px;
+.garanty-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding:10px 7px 9px 8px;
+    color: #737373;
 }
-.garanty__item{
-    list-style-type: style; 
+.garanty__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.garanty__list {
+    margin-left: 65px;
+    margin-bottom: 29px;
+}
+.garanty__item {
+    display: flex;
+    align-items: center;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-
     color: #6A6A6A;
+}
+.garanty__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.garanty__item:before {
+    content: url("../../../src/icons/line.png");
+    display: inline-block;
+    align-self: center;
+    margin-right: 18px;
 }
 .garanty__btn{
     font-family: 'Helvetica';
@@ -64,5 +131,4 @@
     border-radius: 2px;
     border:none;
     margin-left: 104px;
-    
 }
