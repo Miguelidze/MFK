@@ -32,11 +32,11 @@
     line-height: 23px;
     color: #00205B;
     margin-left: 65px;
+    margin-right: 10px;
 
 }
 .garanty__info,
 .acreditation__info {
-    overflow: hidden;
     fill: #a5a4a4;
     stroke: #a5a4a4;
     width: 19px;
@@ -49,11 +49,12 @@
     fill: blue;
     stroke: blue;
 }
+
 .modal-acreditation {
     position: absolute;
-    opacity: 1;
-    top: 33%;
-    left: 26%;
+    opacity: 0;
+    top: 287px;
+    left: 475px;
     width: 380px;
     height: 162px;
     background: #EFF5FF;
@@ -71,15 +72,16 @@
 }
 .modal-garanty {
     position: absolute;
-    opacity: 1;
-    top: 33%;
-    left: 62%;
+    opacity: 0;
+    top: 287px;
+    left: 1163px;
     width: 380px;
     height: 162px;
     background: #EFF5FF;
     border: 1px solid #D1D1D1;
     border-radius: 5px;
 }
+
 .garanty-text {
     font-family: 'Helvetica';
     font-style: normal;
@@ -95,8 +97,7 @@
     justify-content: space-between;
 }
 .garanty__list {
-    margin-left: 65px;
-    margin-bottom: 29px;
+    margin:0px 51px 29px 65px;
 }
 .garanty__item {
     display: flex;
@@ -113,7 +114,7 @@
 }
 
 .garanty__item:before {
-    content: url("../../../src/icons/line.png");
+    content: url("../../src/icons/line.png");
     display: inline-block;
     align-self: center;
     margin-right: 18px;
@@ -131,4 +132,36 @@
     border-radius: 2px;
     border:none;
     margin-left: 104px;
+}
+.garanty__info:hover~.modal-garanty,
+.acreditation__info:hover~.modal-acreditation {
+    display: block;
+    opacity: 1;
+}
+
+.garanty__documentation__item{
+
+}
+.garanty__doc-type{
+    display: flex;
+    padding: 41px 0px 32px 59px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+    margin-bottom: 100px;
+}
+.garanty__documentation__title{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #003772;
+    padding: 23px 36px 23px 0px;
+    border-right: 1px solid #B8B8B8;
+}
+.garanty__documentation__kind {
+    display: flex;
+    align-items: center;
+    margin-left: 56px;
 }
