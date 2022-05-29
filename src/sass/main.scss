@@ -1,3 +1,4 @@
+@import './base/fonts';
 @import './base/normalize';
 @import './base/content';
 @import './base/header';
@@ -10,18 +11,18 @@
 @import './sections/ved';
 @import './sections/specialchecks';
 @import './sections/garanty';
-
+@import './sections/distance-services';
 
 .container {
-    width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 1440px;
+    margin-right: 80px;
+    margin-left: 85px;
 }
-// body {
-//     // margin: 0px;
-//     // width: 100vw;
-//     // height: 100vh;
-// }
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
 button:active{
     background: #B94C40;
 }

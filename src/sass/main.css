@@ -1,3 +1,66 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url("Helvetica.eot");
+  src: url("Helvetica.eot?#iefix") format("embedded-opentype"), url("Helvetica.svg#Helvetica") format("svg"), url("Helvetica.ttf") format("truetype"), url("Helvetica.woff") format("woff"), url("Helvetica.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url("Helvetica-Bold.eot");
+  src: url("Helvetica-Bold.eot?#iefix") format("embedded-opentype"), url("Helvetica-Bold.svg#Helvetica-Bold") format("svg"), url("Helvetica-Bold.ttf") format("truetype"), url("Helvetica-Bold.woff") format("woff"), url("Helvetica-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-BoldOblique';
+  src: url("Helvetica-BoldOblique.eot");
+  src: url("Helvetica-BoldOblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-BoldOblique.svg#Helvetica-BoldOblique") format("svg"), url("Helvetica-BoldOblique.ttf") format("truetype"), url("Helvetica-BoldOblique.woff") format("woff"), url("Helvetica-BoldOblique.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Compressed';
+  src: url("Helvetica-Compressed.eot");
+  src: url("Helvetica-Compressed.eot?#iefix") format("embedded-opentype"), url("Helvetica-Compressed.svg#Helvetica-Compressed") format("svg"), url("Helvetica-Compressed.ttf") format("truetype"), url("Helvetica-Compressed.woff") format("woff"), url("Helvetica-Compressed.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Light';
+  src: url("Helvetica-Light.svg#Helvetica-Light") format("svg"), url("Helvetica-Light.ttf") format("truetype"), url("Helvetica-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica-light-587ebe5a59211';
+  src: url("helvetica-light-587ebe5a59211.eot");
+  src: url("helvetica-light-587ebe5a59211.eot?#iefix") format("embedded-opentype"), url("helvetica-light-587ebe5a59211.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Oblique';
+  src: url("Helvetica-Oblique.eot");
+  src: url("Helvetica-Oblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-Oblique.svg#Helvetica-Oblique") format("svg"), url("Helvetica-Oblique.ttf") format("truetype"), url("Helvetica-Oblique.woff") format("woff"), url("Helvetica-Oblique.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaRounded-Bold';
+  src: url("HelveticaRounded-Bold.eot");
+  src: url("HelveticaRounded-Bold.eot?#iefix") format("embedded-opentype"), url("HelveticaRounded-Bold.svg#HelveticaRounded-Bold") format("svg"), url("HelveticaRounded-Bold.ttf") format("truetype"), url("HelveticaRounded-Bold.woff") format("woff"), url("HelveticaRounded-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -1136,19 +1199,15 @@ summary {
       -ms-flex-align: center;
           align-items: center;
   margin: 0px 40px 0px 20px;
+  list-style: circle;
 }
 
 .credits__check-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  list-style: circle;
   margin-bottom: 20px;
-}
-
-.check__text {
   margin-left: 15px;
   font-family: 'Gilroy';
   font-style: normal;
@@ -1928,10 +1987,214 @@ summary {
   margin-left: 56px;
 }
 
+.distance-services__mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-bottom: 60px;
+  background-image: url("../../../src/icons/mobile.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #D1D1D1;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+  padding: 52px 68px 42px 61px;
+}
+
+.distance-services__desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-bottom: 60px;
+  background-image: url("../../../src/icons/desktop.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #D1D1D1;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+  padding: 58px 30px 85px 46px;
+}
+
+.mobile-choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.mobile__button {
+  width: 118px;
+  height: 37px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  background: transparent;
+}
+
+.mobile__button:active {
+  background: #FFFFFF;
+  color: #B94C40;
+}
+
+.mobile__title {
+  margin-bottom: 28px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.mobile__text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #DADADA;
+}
+
+.service-description {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #DADADA;
+}
+
+.mobile-picture {
+  height: 264px;
+  background: transparent;
+  margin-right: 91px;
+}
+
+.mobile__services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.mobile__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 91px;
+}
+
+.qr-code__picture,
+.service-description {
+  margin-left: 10px;
+}
+
+.qr-code__picture {
+  width: 78px;
+  height: 83px;
+  margin-bottom: 22px;
+}
+
+.service__link-appstore,
+.appstore__picture {
+  width: 146px;
+  height: 56px;
+}
+
+.service__link-playstore {
+  width: 130px;
+  margin-left: 9px;
+}
+
+.playstore__picture {
+  width: inherit;
+  height: auto;
+}
+
+.desktop__services {
+  margin-left: 25px;
+}
+
+.desktop__title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+
+.desktop__text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #DADADA;
+  margin-bottom: 35px;
+}
+
+.desktop__button {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  width: 150px;
+  height: 45px;
+  background: transparent;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: solid 1px #FFFFFF;
+  border-radius: 2px;
+  margin-right: 28px;
+}
+
+.desktop__button:active {
+  background: #FFFFFF;
+  color: #373737;
+}
+
 .container {
-  width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 1440px;
+  margin-right: 80px;
+  margin-left: 85px;
+}
+
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
 }
 
 button:active {
