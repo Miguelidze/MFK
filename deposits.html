@@ -148,11 +148,23 @@
                     </ul>
                     <div class="filter__option">
                         <div class="fiter__option">
+                            <form onchange="output.value=parseInt(rangeField.value)"
+                                oninput="changeVar(rangeField.value,rangeField.min, rangeField.max)">
+                                <label class="sliderBar">Custom slider
+                                    <input id="rangeField" type="range" list="mydata" min="0" max="100" value="50" step="10">
+                                    <output id="output" value="50">50</output>
+                                </label>
                             <span class="">
                                 Хочу вложить 100 тыс. рублей
                             </span>
                         </div>
                         <div class="fiter__option">
+                            <form onchange="output.value=parseInt(rangeField.value)"
+                                oninput="changeVar(rangeField.value,rangeField.min, rangeField.max)">
+                                <label class="sliderBar">Custom slider
+                                    <input id="rangeField" type="range" list="mydata" min="0" max="100" value="50" step="10">
+                                    <output id="output" value="50">50</output>
+                                </label>
                             <span class="">
                                 На срок 1 год
                             </span>

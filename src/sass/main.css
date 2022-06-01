@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Helvetica';
   src: url("Helvetica.eot");
-  src: url("Helvetica.eot?#iefix") format("embedded-opentype"), url("Helvetica.svg#Helvetica") format("svg"), url("Helvetica.ttf") format("truetype"), url("Helvetica.woff") format("woff"), url("Helvetica.woff2") format("woff2");
+  src: url("Helvetica.eot?#iefix") format("embedded-opentype"), url("Helvetica.svg#Helvetica") format("svg"), url("../../fonts/Helvetica/Helvetica.ttf") format("truetype"), url("../../fonts/Helvetica/Helvetica.woff") format("woff"), url("../../fonts/Helvetica/Helvetica.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -2187,8 +2187,8 @@ summary {
 
 .container {
   max-width: 1440px;
-  margin-right: 80px;
-  margin-left: 85px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 body {
