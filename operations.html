@@ -134,7 +134,38 @@
             </div>
         </div>
        <div class="operations">
+            <div class="acor-container">
+                <input type="checkbox" name="chacor" id="chacor1" checked="checked" />
+                <label for="chacor1">Операции с ценными бумагами</label>
+                <img src="./src/images/arrow.png" alt="arrow" class="operations__picture" width="20px" height="20px">
+                <div class="acor-body">
+                    <ul class="operations__list__mobile">
+                        <li class="operations__list-item__mobile">
+                            <a href="./accountopen.html" class="operations__link__mobile">Открытие расчетного счета</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="./ved.html" class="operations__link__mobile">ВЭД</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="./specialchecks.html" class="operations__link__mobile">Специальные счета</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="./distance-services.html" class="operations__link__mobile">Дистанционные сервисы</a>
+                        </li>
+                        <li class="operations__list-item__mobile current-operations__list-item__mobile">
+                            <a href="./operations.html" class="operations__link__mobile">Операции с ценными бумагами</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="./tarif.html" class="operations__link__mobile">Тарифы</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="" class="operations__link__mobile">Документы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
            <div class="operations__item">
+               
             <ul class="operations__list">
                 <li class="operations__list-item">
                     <a href="./accountopen.html" class="operations__link">Открытие расчетного счета</a>
@@ -266,7 +297,7 @@
                         <p>международный <br>финансовый<br>клуб</p>
                     </span>
                 </div>
-                <div class="info-block">
+                <div class="info-block border-gradient-block border-gradient-color-block">
                     <div class="contacts-footer">
                         <ul class="contacts-footer-list">
                             <li class="contacts-footer-item">
@@ -299,7 +330,7 @@
                                         +7 495 287-02-62
                                     </span>
                                 </div>
-                                <div class="contacts-footer-item__contacts">
+                                <div class="contacts-footer-item__contacts mobile-last-item">
                                     <h3 class="contacts-footer-heading">
                                         Телефон:
                                     </h3>
@@ -366,48 +397,52 @@
         </section>
     
     </footer>
-    <div class="mobile__container js-menu-container " id="mobile-menu">
-        <button class="mobile__toggle js-close-menu">
-            <svg class="mobile__svg">
-                <use href="./src/svg/sprite/symbol-defs.svg#ion-close-menu"></use>
-            </svg>
-        </button>
-        <div class="mobile__menu">
-            <ul class="mobile__list list">
-                <li class="mobile__link current">
-                    <a href="./index.html">Студия</a>
-                </li>
-                <li class="mobile__link">
-                    <a href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="mobile__link">
-                    <a href="">Контакты</a>
-                </li>
-            </ul>
-            <div>
-                <ul class="mobile__connect list ">
-                    <li class="mobile__tel">
-                        <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-                    </li>
-                    <li class="mobile__mail">
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                </ul>
-                <ul class="mobile__social-links list">
-                    <li class="mobile__social">
-                        <a href="">Instagram</a>
-                    </li>
-                    <li class="mobile__social">
-                        <a href="">Twitter</a>
-                    </li>
-                    <li class="mobile__social">
-                        <a href="">Facebook</a>
-                    </li>
-                    <li class="mobile__social">
-                        <a href="">Linkedin</a>
-                    </li>
-                </ul>
+    <div class="mobile__container js-menu-container" id="mobile-menu">
+        <div class="mobile__header">
+            <div class="logo-mobile">
+                <img class="logo-picture" src="./src/images/logo1.png" alt="logotype" />
+                <span class="logo-title">
+                    <p>международный <br>финансовый<br>клуб</p>
+                </span>
             </div>
+            <button class="mobile__toggle js-close-menu">
+                <svg class="mobile__svg">
+                    <use href="./src/svg/sprite/symbol-defs.svg#icon-close-menu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile__menu">
+           <div class="">
+                <ul class="mobile__list">
+                    <li class="mobile__list-item">
+                        <a href="#" class="mobile__list-link current-position">Корпоративным клиентам</a>
+                        <img class="mobile__list-picture" src="./src/icons/ARROW.png" alt="arrow" class="mobile-arrow">
+                    </li>
+                    <li class="mobile__list-item">
+                        <a href="#" class="mobile__list-link">Частным клиентам </a>
+                    </li>
+                    <li class="mobile__list-item">
+                        <a href="#" class="mobile__list-link">Private banking</a>
+                    </li>
+                </ul>
+           </div>
+                <ul class="mobile__menu-list">
+                    <li class="mobile__menu-item border-gradient border-gradient-color">
+                        <a href="#" class="mobile__menu-link">Онлайн - банк</a>
+                    </li>
+                    <li class="mobile__menu-item border-gradient border-gradient-color">
+                        <a href="#" class="mobile__menu-link">Банковская группа</a>
+                    </li>
+                    <li class="mobile__menu-item border-gradient border-gradient-color">
+                        <a href="#" class="mobile__menu-link">Новости</a>
+                    </li>
+                    <li class="mobile__menu-item border-gradient border-gradient-color">
+                        <a href="#" class="mobile__menu-link">Поиск</a>
+                    </li>
+                    <li class="mobile__menu-item border-gradient border-gradient-color">
+                        <a href="#" class="mobile__menu-link">Контакты</a>
+                    </li>
+                </ul>
         </div>
     
     </div>
