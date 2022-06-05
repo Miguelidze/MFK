@@ -4,27 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="mfk-bank" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MFK</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./src/sass/main.css">
-    <link rel="preload" href="./fonts/Gilroy-FREE/Gilroy-ExtraBold.otf" as="font">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 </head>
 
 <body>
         <header class="header">
             <section class="container">
+               
                 <div class="header-section">
                     <div class="logo">
-                        <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px" />
+                        <img class="logo-picture" src="./src/images/logo1.png" alt="logotype" />
                         <span class="logo-title">
                             <p>международный <br>финансовый<br>клуб</p>
                         </span>
                     </div>
+                    <button class="menu__toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg class="menu__svg">
+                            <use href="./src/svg/sprite/symbol-defs.svg#icon-menu"></use>
+                        </svg>
+                    </button>
                     <div class="first-header">
                         <div class="about">
                             <ul class="about-list">
@@ -190,43 +192,41 @@
             </div>
             <div class="operations__documentation">
                 <div class="operations__documentation-nav">
-                    <div class="operations__documentation-block">
-                        <div>
-                            <h3 class="operations__documentation-title">
-                                Перечень документов
-                            </h3>
-                            <div class="operations__documentation-Link__list">
-                                <a href="" class="operations__documentation-link">Тарифы</a>
-                                <a href="" class="operations__documentation-link current-link">Документы</a>
-                            </div>
+                    <div>
+                        <h3 class="operations__documentation-title">
+                            Перечень документов
+                        </h3>
+                        <div class="operations__documentation-Link__list">
+                            <a href="" class="operations__documentation-link">Тарифы</a>
+                            <a href="" class="operations__documentation-link current-link">Документы</a>
                         </div>
-                        <div class="operations__documentation-list">
-                            <div class="operations__documentation-item">
-                                <div class="operations__documentation-kind">
-                                    <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
-                                    <div class="operations__documentation-content">
-                                        <H5 class="operations__documentation-description">
-                                            Правила дистанционного банковского обслуживания
-                                        </H5>
-                                        <p class="operations__documentation-caracter">
-                                            PDF, 279 КБ / 04 июня 2018
-                                        </p>
-                                    </div>
+                    </div>
+                    <div class="operations__documentation-list">
+                        <div class="operations__documentation-item">
+                            <div class="operations__documentation-kind">
+                                <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
+                                <div class="operations__documentation-content">
+                                    <H5 class="operations__documentation-description">
+                                        Правила дистанционного банковского обслуживания
+                                    </H5>
+                                    <p class="operations__documentation-caracter">
+                                        PDF, 279 КБ / 04 июня 2018
+                                    </p>
                                 </div>
-                                <div class="operations__documentation-kind">
-                                    <img src="./src/images/word.png" alt="pdf" width="24px" height="30px">
-                                    <div class="operations__documentation-content">
-                                        <H5 class="operations__documentation-description">
-                                            Заявление на подключение к 
-                                        </H5>
-                                        <p class="operations__documentation-caracter">
-                                            PDF, 279 КБ / 04 июня 2018
-                                        </p>
-                                    </div>
+                            </div>
+                            <div class="operations__documentation-kind">
+                                <img src="./src/images/word.png" alt="pdf" width="24px" height="30px">
+                                <div class="operations__documentation-content">
+                                    <H5 class="operations__documentation-description">
+                                        Заявление на подключение к 
+                                    </H5>
+                                    <p class="operations__documentation-caracter">
+                                        PDF, 279 КБ / 04 июня 2018
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <button class="documentation__more" type="button" id="more">
                     Смотреть все
@@ -236,15 +236,13 @@
                 </button>
             </div>
             <div class="rates operations__rates">
-                <div class="rates__item">
-                    <div class="rates__link-item">
-                        <a class="rates__link" href="#">
-                            Тарифы на РКО
-                        </a>
-                        <svg class="rates__svg">
-                            <use href="./src/svg/sprite/symbol-defs.svg#icon-next" />
-                        </svg>
-                    </div>
+                <div class="rates__link-item">
+                    <a class="rates__link" href="#">
+                        Тарифы на РКО
+                    </a>
+                    <svg class="rates__svg">
+                        <use href="./src/svg/sprite/symbol-defs.svg#icon-next" />
+                    </svg>
                 </div>
                 <div class="rates__item-contacts">
                     <div class="rates__contacts">
@@ -273,42 +271,48 @@
                         <ul class="contacts-footer-list">
                             <li class="contacts-footer-item">
                                 <a class="contacts-footer-link" href="#">Корпоративным клиентам</a>
-                                <h3 class="contacts-footer-heading">
-                                    Головной офис банка МФК <br>расположен по адресу:
-                                </h3>
-                                <span class="contacts-footer-text">
-                                    г. Москва, Пресненская <br>набережная, д. 10
-                                </span>
+                                <div class="mobile-footer-link">
+                                    <a class="contacts-footer-link" href="#">Частным клиентам</a>
+                                    <a class="contacts-footer-link" href="#">Private banking</a>
+                                </div>
                             </li>
-                            <li class="contacts-footer-item">
-                                <a class="contacts-footer-link" href="#">Частным клиентам</a>
-                                <h3 class="contacts-footer-heading">
-                                    Телефоны call-центра:
-                                </h3>
-                                <span class="contacts-footer-text">
-                                    + 7 495 287-02-60
-                                </span>
-                                <h3 class="contacts-footer-heading">
-                                    Факс:
-                                </h3>
-                                <span class="contacts-footer-text">
-                                    +7 495 287-02-62
-                                </span>
-                            </li>
-                            <li class="contacts-footer-item">
-                                <a class="contacts-footer-link" href="#">Private banking</a>
-                                <h3 class="contacts-footer-heading">
-                                    Телефон:
-                                </h3>
-                                <span class="contacts-footer-text">
-                                    +7 495 644-35-82
-                                </span>
-                                <h3 class="contacts-footer-heading">
-                                    Эл. почта:
-                                </h3>
-                                <span class="contacts-footer-text">
-                                    media@mfk-bank.ru <br>info@mfk-bank.ru
-                                </span>
+                            <li class="contacts-footer-item mobile-footer-item">
+                                <div class="contacts-footer-item__contacts">
+                                    <h3 class="contacts-footer-heading">
+                                        Головной офис банка МФК <br>расположен по адресу:
+                                    </h3>
+                                    <span class="contacts-footer-text">
+                                        г. Москва, Пресненская <br>набережная, д. 10
+                                    </span>
+                                </div>
+                                <div class="contacts-footer-item__contacts">
+                                    <h3 class="contacts-footer-heading">
+                                        Телефоны call-центра:
+                                    </h3>
+                                    <span class="contacts-footer-text">
+                                        + 7 495 287-02-60
+                                    </span>
+                                    <h3 class="contacts-footer-heading">
+                                        Факс:
+                                    </h3>
+                                    <span class="contacts-footer-text">
+                                        +7 495 287-02-62
+                                    </span>
+                                </div>
+                                <div class="contacts-footer-item__contacts">
+                                    <h3 class="contacts-footer-heading">
+                                        Телефон:
+                                    </h3>
+                                    <span class="contacts-footer-text">
+                                        +7 495 644-35-82
+                                    </span>
+                                    <h3 class="contacts-footer-heading">
+                                        Эл. почта:
+                                    </h3>
+                                    <span class="contacts-footer-text">
+                                        media@mfk-bank.ru <br>info@mfk-bank.ru
+                                    </span>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -362,6 +366,52 @@
         </section>
     
     </footer>
+    <div class="mobile__container js-menu-container " id="mobile-menu">
+        <button class="mobile__toggle js-close-menu">
+            <svg class="mobile__svg">
+                <use href="./src/svg/sprite/symbol-defs.svg#ion-close-menu"></use>
+            </svg>
+        </button>
+        <div class="mobile__menu">
+            <ul class="mobile__list list">
+                <li class="mobile__link current">
+                    <a href="./index.html">Студия</a>
+                </li>
+                <li class="mobile__link">
+                    <a href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mobile__link">
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+            <div>
+                <ul class="mobile__connect list ">
+                    <li class="mobile__tel">
+                        <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                    </li>
+                    <li class="mobile__mail">
+                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="mobile__social-links list">
+                    <li class="mobile__social">
+                        <a href="">Instagram</a>
+                    </li>
+                    <li class="mobile__social">
+                        <a href="">Twitter</a>
+                    </li>
+                    <li class="mobile__social">
+                        <a href="">Facebook</a>
+                    </li>
+                    <li class="mobile__social">
+                        <a href="">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+    <script defer src="./src/js/mobile-menu.js"></script>
 </body>
 
 </html>

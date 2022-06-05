@@ -1,0 +1,133 @@
+.menu__toggle,
+.mobile__toggle {
+height: 40px;
+width: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin: 0;
+padding: 0;
+background-color: transparent;
+cursor: pointer;
+border: none;
+outline: none;
+color: blue;
+
+@media screen and (min-width: 768px) {
+    display: none;
+}
+}
+
+.menu__svg {
+height: 24px;
+width: 16px;
+fill: currentColor;
+}
+
+.mobile {
+
+    // .mobile__container
+
+    &__container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        z-index: 99;
+
+        transform: translateX(100%);
+        transition: 250ms ease-in-out;
+    }
+
+    &__container.is-open  {
+        transform: translateX(0);
+    }
+
+    // .mobile__toggle
+
+    &__toggle {
+        position: fixed;
+        top: 0;
+        right: 0;   
+
+    }
+
+    // .mobile__svg
+
+    &__svg {
+    height: 18px;
+    width: 18px;
+    fill: currentColor
+    }
+
+    // .mobile__menu
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 48px 40px;
+        height: 100%;
+    }
+
+    // .mobile__list
+
+    &__list  &__link:not(:last-child) {
+       margin-bottom: 30px;
+    }   
+
+    // .mobile__link
+
+    &__link {
+        font-family:  Helvetica;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.17;
+        color: blue;
+    }
+
+    // .mobile__connect
+
+    &__connect {
+        margin-bottom: 64px;
+    }
+    &__tel {        
+        height: 40px;
+        color: blue;
+    } 
+    &__mail {
+        height: 24px;
+        color: $main-text-color;
+    }
+
+    // .mobile__social-links
+
+    &__social-links {
+        display: flex;
+        text-align: center;
+        justify-content:space-between;
+    }
+
+    &__social-links &__social:not(:last-child) {
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+    } 
+    &__social-links &__social:not(:first-child) {
+       padding-left: 10px;
+    }
+
+    // .mobile__social
+
+    &__social {
+        padding-right: 10px;
+        color: $link-text-color;
+        
+    }
+
+}
+
+.current {
+    color: $link-text-color;
+} 

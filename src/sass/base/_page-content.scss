@@ -7,6 +7,9 @@
     text-align: center;
     width: 540px;
     margin-bottom: 45px;
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
     }
 .page-item{
     width: 115px;

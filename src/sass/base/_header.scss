@@ -1,16 +1,31 @@
 .header-section {
     display: flex;
-    height: 160px;
     padding-top: 24px;
+    padding-bottom: 12px;
+    @media screen and (max-width:767px){
+    .logo{
+        display: flex;
+        margin-left: 14px;
+    } 
+}
+}
+.logo-picture {
+    width:152px; 
+    height:62px;
+    @media screen and (max-width: 767px) {
+        width:94px; 
+        height:38px;
+        
+    }
 }
 
 .header{
-    background: linear-gradient(274.25deg, #00205B -9.03%, #00A3E0 138.82%);
-    
+    width: auto;
+    background: linear-gradient(274.25deg, #00205B -9.03%, #00A3E0 138.82%); 
 }
 
 .logo-title{
-    font-family: 'Gilroy';
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -19,10 +34,18 @@
     align-items: flex-end;
     color: #FFFFFF;
     padding-top:10px;
+    @media screen and (max-width: 767px) {
+        padding-top: 0px;
+        align-items: center;
+        margin-left: 12px;
+    }
 }
 .first-header{
     margin-left: 150px;
     width: -webkit-fill-available;
+    @media screen and (max-width: 767px){
+        display: none;
+    }
 }
 .about{
     display: flex;
@@ -45,12 +68,8 @@
     line-height: 18px;
     display: flex;
     align-items: flex-end;
-
     color: #FFFFFF;
     text-decoration: none;
-}
-.contacts{
-   
 }
 .contacts-link{
      display: flex;

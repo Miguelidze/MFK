@@ -4,6 +4,70 @@
     {
       "icon": {
         "paths": [
+          "M850.633 173.373c-9.126-9.125-25.347-9.125-34.473 0l-304.158 304.158-304.158-304.158c-9.124-9.125-25.346-9.125-34.471 0s-9.125 25.346 0 34.471l304.158 304.158-304.158 304.158c-9.125 9.126-9.125 25.347 0 34.473 5.069 5.070 11.152 7.096 17.236 7.096s12.166-2.026 17.235-7.096l304.158-304.158 304.158 304.158c5.070 5.070 11.154 7.096 17.237 7.096 6.082 0 12.166-2.026 17.235-7.096 9.124-9.126 9.124-25.347 0-34.473l-304.158-304.158 304.158-304.158c9.124-9.124 9.124-24.332 0-34.471z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "close-menu"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)"
+        }
+      ],
+      "properties": {
+        "order": 48,
+        "id": 1,
+        "name": "close-menu",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M971.776 851.668h-918.204c-9.942 0-18-8.058-18-18s8.058-18 18-18h918.204c9.943 0 18 8.058 18 18s-8.058 18-18 18zM971.776 529.488h-918.204c-9.942 0-18-8.058-18-18s8.058-18 18-18h918.204c9.943 0 18 8.058 18 18s-8.058 18-18 18zM971.776 207.31h-918.204c-9.942 0-18-8.058-18-18s8.058-18 18-18h918.204c9.943 0 18 8.058 18 18s-8.058 18-18 18z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "menu"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)"
+        }
+      ],
+      "properties": {
+        "order": 49,
+        "id": 0,
+        "name": "menu",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
           "M42.667 42.667l469.333 469.333-469.333 469.333"
         ],
         "attrs": [
@@ -40,7 +104,7 @@
         "name": "next",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 8,
       "iconIdx": 0
     },
@@ -117,7 +181,7 @@
         "name": "arrow",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 7,
       "iconIdx": 0
     },
@@ -221,7 +285,7 @@
         "name": "calendar",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 6,
       "iconIdx": 0
     },
@@ -253,7 +317,7 @@
         "name": "instagram",
         "prevSize": 32
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 5,
       "iconIdx": 0
     },
@@ -292,7 +356,7 @@
         "name": "more",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 4,
       "iconIdx": 0
     },
@@ -341,7 +405,7 @@
         "name": "twitter",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 4,
       "iconIdx": 1
     },
@@ -380,7 +444,7 @@
         "name": "search",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 4,
       "iconIdx": 2
     },
@@ -419,7 +483,7 @@
         "name": "phone",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 4,
       "iconIdx": 3
     },
@@ -468,7 +532,7 @@
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 4,
       "iconIdx": 5
     },
@@ -535,7 +599,7 @@
         "name": "info",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 2,
       "iconIdx": 0
     },
@@ -605,7 +669,7 @@
         "name": "garanties",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 2,
       "iconIdx": 1
     },
@@ -662,7 +726,7 @@
         "name": "deposite",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 2,
       "iconIdx": 2
     },
@@ -719,7 +783,7 @@
         "name": "credite",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 2,
       "iconIdx": 3
     },
@@ -776,7 +840,7 @@
         "name": "bank",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 2,
       "iconIdx": 4
     }
