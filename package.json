@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0-beta1",
     "normalize-css": "^2.3.1",
     "normalize-scss": "^7.0.1"
   }
