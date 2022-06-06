@@ -11,6 +11,11 @@
 }
 .specialchecks__item:not(:first-child) {
     margin-left: 50px;
+    @media screen and (max-width: 767px) {
+        margin-left: 0px;
+        margin-top: 15px;
+        
+    }
 }
 .specialchecks__link{
     margin-left: 25px;

@@ -13,11 +13,12 @@
 </head>
 
 <body>
-        <header class="header">
+        <header class="header ">
             <section class="container">
+        
                 <div class="header-section">
                     <div class="logo">
-                        <img src="./src/images/logo1.png" alt="logotype" width="152px" height="62px" />
+                        <img class="logo-picture" src="./src/images/logo1.png" alt="logotype" />
                         <span class="logo-title">
                             <p>международный <br>финансовый<br>клуб</p>
                         </span>
@@ -27,6 +28,55 @@
                             <use href="./src/svg/sprite/symbol-defs.svg#icon-menu"></use>
                         </svg>
                     </button>
+                    <div class="mobile__container js-menu-container" id="mobile-menu">
+                        <div class="mobile__header">
+                            <div class="logo-mobile">
+                                <img class="logo-picture" src="./src/images/logo1.png" alt="logotype" />
+                                <span class="logo-title">
+                                    <p>международный <br>финансовый<br>клуб</p>
+                                </span>
+                            </div>
+                            <button class="mobile__toggle js-close-menu">
+                                <svg class="mobile__svg">
+                                    <use href="./src/svg/sprite/symbol-defs.svg#icon-close-menu"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="mobile__menu">
+                            <div class="">
+                                <ul class="mobile__list">
+                                    <li class="mobile__list-item">
+                                        <a href="#" class="mobile__list-link current-position">Корпоративным клиентам</a>
+                                        <img class="mobile__list-picture" src="./src/icons/ARROW.png" alt="arrow">
+                                    </li>
+                                    <li class="mobile__list-item">
+                                        <a href="#" class="mobile__list-link">Частным клиентам </a>
+                                    </li>
+                                    <li class="mobile__list-item">
+                                        <a href="#" class="mobile__list-link">Private banking</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="mobile__menu-list">
+                                <li class="mobile__menu-item border-gradient border-gradient-color">
+                                    <a href="#" class="mobile__menu-link">Онлайн - банк</a>
+                                </li>
+                                <li class="mobile__menu-item border-gradient border-gradient-color">
+                                    <a href="#" class="mobile__menu-link">Банковская группа</a>
+                                </li>
+                                <li class="mobile__menu-item border-gradient border-gradient-color">
+                                    <a href="#" class="mobile__menu-link">Новости</a>
+                                </li>
+                                <li class="mobile__menu-item border-gradient border-gradient-color">
+                                    <a href="#" class="mobile__menu-link">Поиск</a>
+                                </li>
+                                <li class="mobile__menu-item border-gradient border-gradient-color">
+                                    <a href="#" class="mobile__menu-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                    </div>
                     <div class="first-header">
                         <div class="about">
                             <ul class="about-list">
@@ -200,14 +250,17 @@
                         </h5>
                         <div class="accoutopen__checklist">
                             <input type="text" class="accountopen__text" placeholder="Наименование организации" />
-                            <div class="accountopen__check-item">
-                                <input type="text" class="accountopen__text" placeholder="ИНН" />
-                                <input type="text" class="accountopen__text" placeholder="Электронная почта " />
+                            <div class="accountopen__item-list">
+                                <div class="accountopen__check-item">
+                                    <input type="text" class="accountopen__text" placeholder="ИНН" />
+                                    <input type="text" class="accountopen__text" placeholder="Контактное лицо " />
+                                </div>
+                                <div class="accountopen__check-item">
+                                    <input type="text" class="accountopen__text" placeholder="Электронная почта" />
+                                    <input type="text" class="accountopen__text" placeholder="Контактный телефон" />
+                                </div>
                             </div>
-                            <div class="accountopen__check-item">
-                                <input type="text" class="accountopen__text" placeholder="Контактное лицо" />
-                                <input type="text" class="accountopen__text" placeholder="Контактный телефон" />
-                            </div>
+                            
                         </div>
                         <div class="principal" >
                             <div class="accountopen__conditions">
@@ -307,7 +360,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer ">
         <section class="container">
             <div class="footer__container">
                 <div class="logo-footer">
@@ -316,7 +369,7 @@
                         <p>международный <br>финансовый<br>клуб</p>
                     </span>
                 </div>
-                <div class="info-block">
+                <div class="info-block border-gradient-block border-gradient-color-block">
                     <div class="contacts-footer">
                         <ul class="contacts-footer-list">
                             <li class="contacts-footer-item">
@@ -349,7 +402,7 @@
                                         +7 495 287-02-62
                                     </span>
                                 </div>
-                                <div class="contacts-footer-item__contacts">
+                                <div class="contacts-footer-item__contacts mobile-last-item">
                                     <h3 class="contacts-footer-heading">
                                         Телефон:
                                     </h3>
@@ -414,57 +467,8 @@
                 </div>
             </div>
         </section>
-    
     </footer>
-    <div class="mobile__container js-menu-container" id="mobile-menu">
-        <div class="mobile__header">
-            <div class="logo-mobile">
-                <img class="logo-picture" src="./src/images/logo1.png" alt="logotype" />
-                <span class="logo-title">
-                    <p>международный <br>финансовый<br>клуб</p>
-                </span>
-            </div>
-            <button class="mobile__toggle js-close-menu">
-                <svg class="mobile__svg">
-                    <use href="./src/svg/sprite/symbol-defs.svg#icon-close-menu"></use>
-                </svg>
-            </button>
-        </div>
-        <div class="mobile__menu">
-            <div class="">
-                <ul class="mobile__list">
-                    <li class="mobile__list-item">
-                        <a href="#" class="mobile__list-link current-position">Корпоративным клиентам</a>
-                        <img class="mobile__list-picture" src="./src/icons/ARROW.png" alt="arrow">
-                    </li>
-                    <li class="mobile__list-item">
-                        <a href="#" class="mobile__list-link">Частным клиентам </a>
-                    </li>
-                    <li class="mobile__list-item">
-                        <a href="#" class="mobile__list-link">Private banking</a>
-                    </li>
-                </ul>
-            </div>
-            <ul class="mobile__menu-list">
-                <li class="mobile__menu-item border-gradient border-gradient-color">
-                    <a href="#" class="mobile__menu-link">Онлайн - банк</a>
-                </li>
-                <li class="mobile__menu-item border-gradient border-gradient-color">
-                    <a href="#" class="mobile__menu-link">Банковская группа</a>
-                </li>
-                <li class="mobile__menu-item border-gradient border-gradient-color">
-                    <a href="#" class="mobile__menu-link">Новости</a>
-                </li>
-                <li class="mobile__menu-item border-gradient border-gradient-color">
-                    <a href="#" class="mobile__menu-link">Поиск</a>
-                </li>
-                <li class="mobile__menu-item border-gradient border-gradient-color">
-                    <a href="#" class="mobile__menu-link">Контакты</a>
-                </li>
-            </ul>
-        </div>
     
-    </div>
     <script defer src="./src/js/mobile-menu.js"></script>
     <script defer src="./src/js/dropdown.js"></script>
 </body>

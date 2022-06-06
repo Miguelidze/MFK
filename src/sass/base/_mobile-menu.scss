@@ -42,18 +42,18 @@
     &__container {
         position: fixed;
         top: 0;
-        left: 0%;
+        left: 100%;
         width: 100vw;
         height: 100vh;
         background: linear-gradient(274.25deg, #00205B -9.03%, #00A3E0 138.82%); 
         z-index: 99;
 
-        transform: translateX(100%);
+        // transform: translateX(-100%);
         transition: 250ms ease-in-out;
     }
 
     &__container.is-open  {
-        transform: translateX(0);
+        transform: translateX(-100%);
     }
 
     // .mobile__toggle

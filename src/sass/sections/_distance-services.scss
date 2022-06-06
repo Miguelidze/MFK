@@ -9,6 +9,9 @@
     border: 1px solid #D1D1D1;
     box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
     padding:52px 68px 42px 61px;
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
 }
 .distance-services__desktop{
     display: flex;
@@ -21,6 +24,9 @@
     border: 1px solid #D1D1D1;
     box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
     padding:58px 30px 85px 46px;
+    @media screen and (max-width: 767px) {
+        padding:0px;
+    }
 }
 
 .mobile-choice{
@@ -75,6 +81,9 @@
     height: 264px;
     background: transparent;
     margin-right: 91px;
+    @media screen and (max-width: 767px) {
+        margin-right: 0px;
+    }
 }
 .mobile__services{
     display: flex;
@@ -86,6 +95,9 @@
     display: flex;
     flex-direction: column;
     margin-right: 91px;
+    @media  screen and (max-width: 767px) {
+        margin-right: 0px;
+    }
 }
 .qr-code__picture,
 .service-description{
@@ -111,6 +123,9 @@
 }
 .desktop__services{
     margin-left: 25px;
+    @media screen and (max-width: 767px) {
+        margin-left: 0px;
+    }
 }
 .desktop__title{
     font-family: 'Helvetica';
@@ -120,6 +135,10 @@
     line-height: 28px;
     color: #FFFFFF;
     margin-bottom:17px;
+    @media screen and (max-width: 767px) {
+        margin-top: 60px;
+        text-align: center;
+    }
 }
 .desktop__text{
     font-family: 'Helvetica';
@@ -129,6 +148,9 @@
     line-height: 18px;
     color: #DADADA;
     margin-bottom: 35px;
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
 }
 .desktop__button{
     font-family: 'Helvetica';
@@ -143,9 +165,38 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: solid 1px #FFFFFF;
     border-radius: 2px;
+    
+}
+.desktop__button:not(:last-child){
     margin-right: 28px;
 }
 .desktop__button:active{
     background: #FFFFFF;
     color: #373737;
+}
+.mobile-background,
+.desktop-background {
+    margin-left:95px;
+    @media screen and (max-width: 767px) {
+    margin-left: 0px;
+    }    
+}
+
+.mobile__clas{
+    display: flex;
+}
+.desktop__picture-mob{
+    display: none;
+}
+@media screen and (max-width:767px) {
+    .desktop__picture{
+        display: none;
+    }
+    .desktop__picture-mob{
+        display: block;
+    }
+    .desktop__enlaces{
+        margin-bottom: 62px;
+        text-align: center;
+    }
 }

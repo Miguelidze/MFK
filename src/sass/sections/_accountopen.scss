@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 55px;
+    @media  screen and (max-width:767px) {
+        margin-bottom: 0px;
+    }
 }
 .accountopen__text{
     border: none;
@@ -16,12 +19,19 @@
 }
 .principal{
     display: flex;  
+    @media  screen and (max-width: 767px) {
+        flex-direction: column;
+    }
 }
 .accountopen__conditions{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 145px;
+    @media  screen and (max-width: 767px) {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
 }
 .accountopen__check{
     margin-right: 25px;
@@ -34,7 +44,16 @@
     line-height: 18px;
     color: #727272;
 }
-.accountopen__check-item{
+.accountopen__item-list{
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 767px) {
+        display: block;
+        
+    }
+}
+.accountopen__check-item{
+    display:flex;
+    flex-direction: column;
+    
 }
