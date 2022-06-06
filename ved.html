@@ -22,6 +22,11 @@
                             <p>международный <br>финансовый<br>клуб</p>
                         </span>
                     </div>
+                    <button class="menu__toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg class="menu__svg">
+                            <use href="./src/svg/sprite/symbol-defs.svg#icon-menu"></use>
+                        </svg>
+                    </button>
                     <div class="first-header">
                         <div class="about">
                             <ul class="about-list">
@@ -130,6 +135,38 @@
             </div>
         </div>
         <div class="operations">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">
+                    <p class="dropbtn-text">ВЭД</p>
+                    <img class="dropdown__picture" src="./src/icons/ARROW.png" alt="arrow" class="operations__picture" width="20px"
+                        height="20px">
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <ul class="operations__list__mobile">
+                        <li class="operations__list-item__mobile">
+                            <a href="./accountopen.html" class="operations__link__mobile">Открытие расчетного счета</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="./ved.html" class="operations__link__mobile">ВЭД</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="./specialchecks.html" class="operations__link__mobile">Специальные счета</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="./distance-services.html" class="operations__link__mobile">Дистанционные сервисы</a>
+                        </li>
+                        <li class="operations__list-item__mobile ">
+                            <a href="./operations.html" class="operations__link__mobile">Операции с ценными бумагами</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="./tarif.html" class="operations__link__mobile">Тарифы</a>
+                        </li>
+                        <li class="operations__list-item__mobile">
+                            <a href="" class="operations__link__mobile">Документы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="operations__item">
                 <ul class="operations__list">
                     <li class="operations__list-item">
@@ -377,6 +414,57 @@
             </div>
         </section>
     </footer>
+    <div class="mobile__container js-menu-container" id="mobile-menu">
+        <div class="mobile__header">
+            <div class="logo-mobile">
+                <img class="logo-picture" src="./src/images/logo1.png" alt="logotype" />
+                <span class="logo-title">
+                    <p>международный <br>финансовый<br>клуб</p>
+                </span>
+            </div>
+            <button class="mobile__toggle js-close-menu">
+                <svg class="mobile__svg">
+                    <use href="./src/svg/sprite/symbol-defs.svg#icon-close-menu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile__menu">
+            <div class="">
+                <ul class="mobile__list">
+                    <li class="mobile__list-item">
+                        <a href="#" class="mobile__list-link current-position">Корпоративным клиентам</a>
+                        <img class="mobile__list-picture" src="./src/icons/ARROW.png" alt="arrow">
+                    </li>
+                    <li class="mobile__list-item">
+                        <a href="#" class="mobile__list-link">Частным клиентам </a>
+                    </li>
+                    <li class="mobile__list-item">
+                        <a href="#" class="mobile__list-link">Private banking</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="mobile__menu-list">
+                <li class="mobile__menu-item border-gradient border-gradient-color">
+                    <a href="#" class="mobile__menu-link">Онлайн - банк</a>
+                </li>
+                <li class="mobile__menu-item border-gradient border-gradient-color">
+                    <a href="#" class="mobile__menu-link">Банковская группа</a>
+                </li>
+                <li class="mobile__menu-item border-gradient border-gradient-color">
+                    <a href="#" class="mobile__menu-link">Новости</a>
+                </li>
+                <li class="mobile__menu-item border-gradient border-gradient-color">
+                    <a href="#" class="mobile__menu-link">Поиск</a>
+                </li>
+                <li class="mobile__menu-item border-gradient border-gradient-color">
+                    <a href="#" class="mobile__menu-link">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+    <script defer src="./src/js/mobile-menu.js"></script>
+    <script defer src="./src/js/dropdown.js"></script>
 </body>
 
 </html>

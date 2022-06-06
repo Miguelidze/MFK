@@ -6,8 +6,11 @@
 
 @media screen and (max-width: 767px) {
 .dropbtn {
-    width: auto;
     display: flex;
+    align-items: center;
+    justify-content:center;
+    width: -webkit-fill-available;
+    margin-bottom: 40px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
@@ -26,13 +29,12 @@
     text-fill-color: transparent;
     cursor: pointer;
 }
-
+.dropdown__picture{
+    margin-left: 20px;
+}
 .dropbtn:hover, .dropbtn:focus {
   background-color: #2980B9;
 }
-
-
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -44,7 +46,11 @@
 }
 
 .dropdown-content a {
-  color: black;
+  background: linear-gradient(274.25deg, #00205B -9.03%, #00A3E0 138.82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -57,7 +63,5 @@
 .show {
     display: block;
 }
-.dropdown__picture{
-    margin-left: 10px;
-}
+
 }
