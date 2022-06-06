@@ -15,41 +15,52 @@
 @import './sections/garanty';
 @import './sections/distance-services';
 
-// .container {
-//   width: 100%;
-//   margin-right: auto;
-//   margin-left: auto;
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 //   padding: 0 15px;
 
-//   @media  screen and (min-width: 480px) { 
-//     width: 480px;
-//   }
-//   @media  screen and (min-width: 768px) { 
-//     width: 768px;
-//   }
-//   @media  screen and (min-width: 1200px) { 
-//     width: 1200px;
-//   }
-// } 
-.container {
-    max-width:1440px;   
-    margin-right: auto;
+  @media  screen and (min-width: 375px) { 
+    width: 375px;
+    // margin-right: 7px;
+    // margin-left: 6px;
+  }
+  @media  screen and (min-width: 768px) { 
+    width: 768px;
+    // margin-right: 30px;
+    // margin-left: 30px;
+  }
+  @media  screen and (min-width: 1440px) { 
+    width: 1440px;
     margin-left: auto;
+    margin-right: auto;
+
+  }
+} 
+// .container {
+//     max-width:1440px;   
+//     margin-right: auto;
+//     margin-left: auto;
     
-    @media screen and (max-width:767px) {
-        margin-right: 7px;
-        margin-left: 6px;
-    }
+//     @media screen and (max-width:767px) {
+//         margin-right: 7px;
+//         margin-left: 6px;
+//     }
     
-    @media screen and (min-width:768px) and (max-width:1439px) {
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-}
+//     @media screen and (min-width:768px) and (max-width:1439px) {
+//         margin-right: 30px;
+//         margin-left: 30px;
+//     }
+// }
 body {
     margin: 0px;
     width: 100vw;
     height: 100vh;
+}
+button:hover,
+button:focus {
+    cursor: pointer;
 }
 button:active{
     background: #B94C40;

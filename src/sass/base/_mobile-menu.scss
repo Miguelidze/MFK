@@ -14,9 +14,14 @@
     color: blue;
     @media screen and (min-width: 768px) {
         display: none;
+    }
 }
+.mobile__container{
+    display: none;
+    @media screen and (max-width:767px) {
+        display: block;
+    }
 }
-
 .menu__svg {
     height: 42px;
     width: 42px;
@@ -37,7 +42,7 @@
     &__container {
         position: fixed;
         top: 0;
-        left: 0;
+        left: 0%;
         width: 100vw;
         height: 100vh;
         background: linear-gradient(274.25deg, #00205B -9.03%, #00A3E0 138.82%); 

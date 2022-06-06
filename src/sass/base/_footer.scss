@@ -36,6 +36,7 @@
 }
 
 .info-block{
+    position: relative;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -88,14 +89,17 @@
             top: auto;
             left: 205px;
         }
+        .nav-footer{
+            position: relative;
+        }
         .nav-footer-link{
             position: absolute;
-            top: 380px;
-            left: 232px;
+            top: -110px;
+            left: 206px;
         }
         .social__links{
             position: absolute;
-            top: 427px;
+            top: -100px;
             left: 232px;
         }
 }
@@ -187,7 +191,7 @@
     @media screen and (max-width: 767px) {
         display: flex;
         position: absolute;
-        top: 63px;
+        top: -433px;
     }
     margin-top: 45px;
 }
@@ -210,6 +214,7 @@
     color: #FFFFFF;
 }
 .cr-container{
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding: 45px 0px 52px 260px;
