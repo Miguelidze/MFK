@@ -1,12 +1,10 @@
-.second__header-credits{
-    margin-bottom: 60px;
-}
+
 .second__title-credits{
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    font-family: 'Gilroy';
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -16,7 +14,7 @@
 .second__text-credits__list{
     margin-bottom: 60px;
     @media screen and (max-width: 767px) {
-        margin-bottom: 18px;
+        margin:  18px 0px 23px 19px;
     }
 }
 .second__text-credits{
@@ -40,7 +38,7 @@
     display: flex;
 }
 .credits__button{
-    font-family: 'Gilroy';
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -70,7 +68,7 @@
 }
 .credits__title{
     margin: 0px 30px 25px 50px;
-    font-family: 'Gilroy';
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -88,7 +86,7 @@
     list-style: circle;
     margin-bottom: 20px;
     margin-left: 15px;
-    font-family: 'Gilroy';
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -108,7 +106,7 @@
 }
 .credits__text{
     margin-left: 10px;
-    font-family: 'Gilroy';
+    font-family: 'Helvetica';
     font-style: normal;
     font-weight: 500;
     font-size: 26px;

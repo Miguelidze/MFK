@@ -1,6 +1,9 @@
 .garanty{
     display: flex;
     margin-bottom: 100px;
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
 }
 .garanty__kind{
     display: flex;
@@ -13,9 +16,16 @@
     border-radius: 5px;
     padding-bottom: 72px;
     padding-top: 49px;
+    @media screen and (max-width: 767px) {
+
+    }
 }
 .garanty__kind:not(:last-child){
     margin-right: 38px;
+    @media screen and (max-width: 767px) {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
 }
 .garanty__togle {
     margin-bottom: 30px;
@@ -60,6 +70,9 @@
     background: #EFF5FF;
     border: 1px solid #D1D1D1;
     border-radius: 5px;
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
 .acreditation-text {
     font-family: 'Helvetica';
@@ -71,6 +84,7 @@
     color: #737373;
 }
 .modal-garanty {
+    display:block;
     position: absolute;
     opacity: 0;
     top: 287px;
@@ -80,6 +94,9 @@
     background: #EFF5FF;
     border: 1px solid #D1D1D1;
     border-radius: 5px;
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
 
 .garanty-text {
@@ -98,6 +115,10 @@
 }
 .garanty__list {
     margin:0px 51px 29px 65px;
+    @media screen and (max-width: 767px) {
+        margin-left: 13px;
+        margin-right: 12px;
+    }
 }
 .garanty__item {
     display: flex;
@@ -108,6 +129,10 @@
     font-size: 17px;
     line-height: 20px;
     color: #6A6A6A;
+    @media screen and (max-width:767px) {
+        font-size: 16px;
+        line-height: 21px;
+    }
 }
 .garanty__item:not(:last-child) {
     margin-bottom: 15px;
@@ -132,6 +157,10 @@
     border-radius: 2px;
     border:none;
     margin-left: 104px;
+    @media screen and (max-width: 767px) {
+        margin-left: 0px;
+        width: -webkit-fill-available;
+    }
 }
 .garanty__info:hover~.modal-garanty,
 .acreditation__info:hover~.modal-acreditation {
@@ -145,6 +174,11 @@
     border: 1px solid #D1D1D1;
     box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
     margin-bottom: 100px;
+    @media screen and (max-width: 767px) {
+        padding:0px;
+        flex-direction: column;
+        align-content: center;
+    }
 }
 .garanty__documentation__title{
     font-family: 'Helvetica';
@@ -155,9 +189,23 @@
     color: #003772;
     padding: 23px 36px 23px 0px;
     border-right: 1px solid #B8B8B8;
+    @media screen and (max-width: 767px) {
+        margin: 28px 31px 21px 50px;
+        padding: 0px;
+    }
 }
 .garanty__documentation__kind {
     display: flex;
     align-items: center;
     margin-left: 56px;
+    @media screen and (max-width: 767px) {
+        margin-left: 14px;
+        margin-bottom: 51px;
+    }
+}
+.dropdown__header{
+    display: none;
+    @media screen and (max-width: 767px) {
+        display:block;
+    }
 }

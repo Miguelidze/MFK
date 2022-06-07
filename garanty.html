@@ -128,19 +128,12 @@
         </section>
     </header>
     <section class="container">
+        
         <div class="page-content">
             <div class="page-item">
                 <a class="page-link" href="./operations.html">
                     <svg class="page__more" viewBox="0 0 32 32">
-
-                        <!-- Градиент -->
-                        <!-- <linearGradient id="linear-gradient">
-                                                        <stop offset="0%" stop-color="#E05226" />
-                                                        <stop offset="100%" stop-color="#7B1931" />
-                                                    </linearGradient> -->
                         <use class="page__icon" href="./src/svg/sprite/symbol-defs.svg#icon-bank" />
-                        <!-- Фигура с градиентной заливкой -->
-                        <!-- <rect fill="url(#linear-gradient)" width="100%" height="100%"/> -->
                     </svg>
                     <p class="page__text">Банковское обслуживание</p>
                 </a>
@@ -176,11 +169,42 @@
     <!-- Main content-->
 
     <section class="main__content container">
-        <div class="second__header-credits">
+        <div>
             <div class="second__text-credits__list">
                 <a class="second__text-credits" href="#">Главная /</a>
                 <a class="second__text-credits" href="#">Корпоративным клиентам /</a>
                 <a class="second__text-credits current-second__text-credits" href="./garanty.html">Аккредетивы и гарантии</a>
+            </div>
+        </div>
+        <div class="dropdown__header">
+            <button onclick="myFunction()" class="dropbtn">
+                <p class="dropbtn-text">Аккредитивы и гарантии</p>
+                <img class="dropdown__picture" src="./src/icons/ARROW.png" alt="arrow" class="operations__picture" width="20px"
+                    height="20px">
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <ul class="operations__list__mobile">
+                    <li class="operations__list-item__mobile">
+                        <a class="operations__link__mobile" href="./operations.html">
+                            Банковское обслуживание
+                        </a>
+                    </li>
+                    <li class="operations__list-item__mobile">
+                        <a class="operations__link__mobile" href="./deposits.html">
+                            Депозиты
+                        </a>
+                    </li>
+                    <li class="operations__list-item__mobile">
+                        <a class="operations__link__mobile" href="./credits.html">
+                            Кредитование
+                        </a>
+                    </li>
+                    <li class="operations__list-item__mobile">
+                        <a class="operations__link__mobile" href="./garanty.html">
+        
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="garanty">
@@ -258,7 +282,7 @@
                             гарантии на возврат авансового платежа;
                         </li>
                         <li class="garanty__item">
-                            арантии конкурсной заявки (тендерные): 44-ФЗ и 223-ФЗ;
+                            гарантии конкурсной заявки (тендерные): 44-ФЗ и 223-ФЗ;
                         </li>
                         <li class="garanty__item">
                             гарантии исполнения договорных обязательств (коммерческие, по 44-ФЗ и 223-ФЗ по государственным контрактам);
