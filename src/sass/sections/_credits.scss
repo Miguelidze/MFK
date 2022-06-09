@@ -1,6 +1,7 @@
 
 .second__title-credits{
     display: flex;
+    margin-bottom: 61px;
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -78,6 +79,8 @@
 .credits__check {
     display: inline-block;
     align-items: center;
+    flex-grow: 1;
+    min-height: 3em;
     margin: 0px 40px 0px 20px;
     list-style: circle;
 }

@@ -45,7 +45,7 @@
                             <div class="">
                                 <ul class="mobile__list">
                                     <li class="mobile__list-item">
-                                        <a href="#" class="mobile__list-link current-position">Корпоративным клиентам</a>
+                                        <a href="./accountopen.html" class="mobile__list-link current-position">Корпоративным клиентам</a>
                                         <img class="mobile__list-picture" src="./src/icons/ARROW.png" alt="arrow">
                                     </li>
                                     <li class="mobile__list-item">
@@ -111,7 +111,7 @@
                         <div class="pages">
                             <ul class="pages-list">
                                 <li>
-                                    <a class="pages-link current" href="#">Корпоративным клиентам</a>
+                                    <a class="pages-link current" href="./accountopen.html">Корпоративным клиентам</a>
                                 </li>
                                 <li>
                                     <a class="pages-link" href="#">Частным клиентам</a>
@@ -129,7 +129,7 @@
         <section class="container">
             <div class="page-content">
                 <div class="page-item current__page">
-                    <a class="page-link" href="./operations.html">
+                    <a class="page-link" href="./accountopen.html">
                         <svg class="page__more current__item" viewBox="0 0 32 32">
             
                             <!-- Градиент -->
@@ -177,8 +177,8 @@
         <div class="second__header-operations">
             <div class="second__text-credits__list">
                 <a class="second__text-credits" href="#">Главная /</a>
-                <a class="second__text-credits" href="#">Корпоративным клиентам /</a>
-                <a class="second__text-credits" href="#">Банковское обслуживание /</a>
+                <a class="second__text-credits" href="./accountopen.html">Корпоративным клиентам /</a>
+                <a class="second__text-credits" href="./accountopen.html">Банковское обслуживание /</a>
                 <a class="second__text-credits current-second__text-credits" href="./operations.html">Операции с ценными бумагами</a>
             </div>
         </div>
@@ -273,43 +273,80 @@
             </div>
             <div class="operations__documentation">
                 <div class="operations__documentation-nav">
-                    <div>
-                        <h3 class="operations__documentation-title">
-                            Перечень документов
-                        </h3>
-                        <div class="operations__documentation-Link__list">
-                            <a href="" class="operations__documentation-link">Тарифы</a>
-                            <a href="" class="operations__documentation-link current-link">Документы</a>
+                    <div type="menu__toggle" id="operations__docs" class="operations__docs">
+                        <div>
+                            <h3 class="operations__documentation-title">
+                                Перечень документов
+                            </h3>
+                            <div class="operations__documentation-Link__list">
+                                <a href="#" class="operations__documentation-link" id="tarifs">Тарифы</a>
+                                <a href="#" class="operations__documentation-link current-link" id="docs">Документы</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="operations__documentation-list">
-                        <div class="operations__documentation-item">
-                            <div class="operations__documentation-kind">
-                                <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
-                                <div class="operations__documentation-content">
-                                    <H5 class="operations__documentation-description">
-                                        Правила дистанционного банковского обслуживания
-                                    </H5>
-                                    <p class="operations__documentation-caracter">
-                                        PDF, 279 КБ / 04 июня 2018
-                                    </p>
+                        <div class="operations__documentation-list">
+                            <div class="operations__documentation-kind" id="tarifs-item">
+                                <div class="operations__documentation-file">
+                                    <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
+                                    <div class="operations__documentation-content">
+                                        <H5 class="operations__documentation-description">
+                                            Правила дистанционного банковского обслуживания
+                                        </H5>
+                                        <p class="operations__documentation-caracter">
+                                            PDF, 279 КБ / 04 июня 2018
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="operations__documentation-kind">
-                                <img src="./src/images/word.png" alt="pdf" width="24px" height="30px">
-                                <div class="operations__documentation-content">
-                                    <H5 class="operations__documentation-description">
-                                        Заявление на подключение к 
-                                    </H5>
-                                    <p class="operations__documentation-caracter">
-                                        PDF, 279 КБ / 04 июня 2018
-                                    </p>
+                            <div class="operations__documentation-kind active" id="docs-item">
+                                <div class="operations__documentation-file">
+                                    <img src="./src/images/word.png" alt="pdf" width="24px" height="30px">
+                                    <div class="operations__documentation-content">
+                                        <H5 class="operations__documentation-description">
+                                            Заявление на подключение к 
+                                        </H5>
+                                        <p class="operations__documentation-caracter">
+                                            PDF, 279 КБ / 04 июня 2018
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="operations__documentation-file">
+                                    <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
+                                    <div class="operations__documentation-content">
+                                        <H5 class="operations__documentation-description">
+                                            Правила дистанционного банковского обслуживания
+                                        </H5>
+                                        <p class="operations__documentation-caracter">
+                                            PDF, 279 КБ / 04 июня 2018
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="operations__documentation-file hide" data-show="no">
+                                    <img src="./src/images/word.png" alt="pdf" width="24px" height="30px">
+                                    <div class="operations__documentation-content">
+                                        <H5 class="operations__documentation-description">
+                                            Заявление на подключение к 
+                                        </H5>
+                                        <p class="operations__documentation-caracter">
+                                            PDF, 279 КБ / 04 июня 2018
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="operations__documentation-file hide" data-show="no">
+                                    <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
+                                    <div class="operations__documentation-content">
+                                        <H5 class="operations__documentation-description">
+                                            Правила дистанционного банковского обслуживания
+                                        </H5>
+                                        <p class="operations__documentation-caracter">
+                                            PDF, 279 КБ / 04 июня 2018
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="documentation__more" type="button" id="more">
+                <button class="documentation__more more" type="button" id="showmore">
                     Смотреть все
                     <svg class="more-picture">
                         <use href="./src/svg/sprite/symbol-defs.svg#icon-more" />
@@ -351,7 +388,7 @@
                     <div class="contacts-footer">
                         <ul class="contacts-footer-list">
                             <li class="contacts-footer-item">
-                                <a class="contacts-footer-link" href="#">Корпоративным клиентам</a>
+                                <a class="contacts-footer-link" href="./accountopen.html">Корпоративным клиентам</a>
                                 <div class="mobile-footer-link">
                                     <a class="contacts-footer-link" href="#">Частным клиентам</a>
                                     <a class="contacts-footer-link" href="#">Private banking</a>
@@ -447,6 +484,9 @@
         </section>
     </footer>
     
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="./src/js/custom.js"></script>
     <script defer src="./src/js/mobile-menu.js"></script>
     <script defer src="./src/js/dropdown.js"></script>
 </body>

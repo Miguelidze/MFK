@@ -139,10 +139,11 @@
 }
 
 .garanty__item:before {
-    content: url("../../src/icons/line.png");
+    content: '—';
     display: inline-block;
-    align-self: center;
+    align-self: flex-start;
     margin-right: 18px;
+    color: #00A3E0;
 }
 .garanty__btn{
     font-family: 'Helvetica';

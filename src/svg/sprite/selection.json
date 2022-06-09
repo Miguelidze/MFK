@@ -4,6 +4,51 @@
     {
       "icon": {
         "paths": [
+          "M522.258 272.648c-4.951-5.046-13.053-5.125-18.102-0.174l-82.24 80.668c-5.046 4.951-5.125 13.056-0.174 18.102 4.951 5.048 13.056 5.125 18.102 0.174l73.101-71.706 71.708 73.101c4.951 5.048 13.053 5.125 18.102 0.177 5.046-4.951 5.123-13.056 0.174-18.102l-80.671-82.24zM523.699 512.123l2.22-230.39-25.597-0.246-2.22 230.39 25.597 0.246z",
+          "M908.8 409.6c0 219.147-177.653 396.8-396.8 396.8s-396.8-177.653-396.8-396.8c0-219.147 177.653-396.8 396.8-396.8s396.8 177.653 396.8 396.8z"
+        ],
+        "attrs": [
+          {},
+          {
+            "fill": "none",
+            "stroke": "rgb(76, 76, 76)",
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 25.6
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": true,
+        "grid": 0,
+        "tags": [
+          "less"
+        ]
+      },
+      "attrs": [
+        {},
+        {
+          "fill": "none",
+          "stroke": "rgb(76, 76, 76)",
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 25.6
+        }
+      ],
+      "properties": {
+        "order": 50,
+        "id": 0,
+        "name": "less",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 10,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M850.633 173.373c-9.126-9.125-25.347-9.125-34.473 0l-304.158 304.158-304.158-304.158c-9.124-9.125-25.346-9.125-34.471 0s-9.125 25.346 0 34.471l304.158 304.158-304.158 304.158c-9.125 9.126-9.125 25.347 0 34.473 5.069 5.070 11.152 7.096 17.236 7.096s12.166-2.026 17.235-7.096l304.158-304.158 304.158 304.158c5.070 5.070 11.154 7.096 17.237 7.096 6.082 0 12.166-2.026 17.235-7.096 9.124-9.126 9.124-25.347 0-34.473l-304.158-304.158 304.158-304.158c9.124-9.124 9.124-24.332 0-34.471z"
         ],
         "attrs": [
@@ -29,7 +74,7 @@
         "name": "close-menu",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 9,
       "iconIdx": 0
     },
@@ -61,7 +106,7 @@
         "name": "menu",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 9,
       "iconIdx": 1
     },
@@ -104,7 +149,7 @@
         "name": "next",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 8,
       "iconIdx": 0
     },
@@ -181,7 +226,7 @@
         "name": "arrow",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 7,
       "iconIdx": 0
     },
@@ -285,7 +330,7 @@
         "name": "calendar",
         "prevSize": 32
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 6,
       "iconIdx": 0
     },
@@ -317,7 +362,7 @@
         "name": "instagram",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 5,
       "setId": 5,
       "iconIdx": 0
     },
@@ -356,7 +401,7 @@
         "name": "more",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 4,
       "iconIdx": 0
     },
@@ -405,7 +450,7 @@
         "name": "twitter",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 4,
       "iconIdx": 1
     },
@@ -444,7 +489,7 @@
         "name": "search",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 4,
       "iconIdx": 2
     },
@@ -483,7 +528,7 @@
         "name": "phone",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 4,
       "iconIdx": 3
     },
@@ -532,7 +577,7 @@
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 4,
       "iconIdx": 5
     },
@@ -599,7 +644,7 @@
         "name": "info",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 0
     },
@@ -669,7 +714,7 @@
         "name": "garanties",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 1
     },
@@ -726,7 +771,7 @@
         "name": "deposite",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 2
     },
@@ -783,7 +828,7 @@
         "name": "credite",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 3
     },
@@ -840,7 +885,7 @@
         "name": "bank",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 4
     }
