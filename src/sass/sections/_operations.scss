@@ -163,6 +163,12 @@
 .operations__documentation-file.hide{
     display: none;
 }
+.documentation__item {
+    display: block;
+}
+.documentation__item.hide{
+    display: none;
+}
 .operations__documentation-title{
     margin-bottom: 50px;
     font-family: 'Helvetica';

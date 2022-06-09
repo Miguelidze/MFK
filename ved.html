@@ -293,8 +293,8 @@
                                 </h3>
                             </div>
                             <div class="operations__documentation-list">
-                                <div class="operations__documentation-item">
-                                    <div class="operations__documentation-kind">
+                                <div class="operations__documentation-kind active">
+                                    <div class="operations__documentation-file">
                                         <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
                                         <div class="operations__documentation-content">
                                             <H5 class="operations__documentation-description">
@@ -305,7 +305,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="operations__documentation-kind">
+                                    <div class="operations__documentation-file">
                                         <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
                                         <div class="operations__documentation-content">
                                             <H5 class="operations__documentation-description">
@@ -316,7 +316,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="operations__documentation-kind">
+                                    <div class="operations__documentation-file hide" data-show="no">
                                         <img src="./src/images/pdf.png" alt="pdf" width="24px" height="30px">
                                         <div class="operations__documentation-content">
                                             <H5 class="operations__documentation-description">
@@ -331,7 +331,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="documentation__more" type="button" id="more">
+                    <button class="documentation__more more" type="button" id="showmore">
                         Смотреть все
                         <svg class="more-picture">
                             <use href="./src/svg/sprite/symbol-defs.svg#icon-more" />
@@ -469,7 +469,9 @@
             </div>
         </section>
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="./src/js/custom.js"></script>
     <script defer src="./src/js/mobile-menu.js"></script>
     <script defer src="./src/js/dropdown.js"></script>
 </body>
